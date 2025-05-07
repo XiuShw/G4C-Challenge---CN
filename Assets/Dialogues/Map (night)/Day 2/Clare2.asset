@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1996a6502e32979468f8865814e50378, type: 3}
+  m_Name: Clare2
+  m_EditorClassIdentifier: 
+  RootNode:
+    dialogues:
+    - c:Mister!0108r
+    - y:Hey.0208l
+    - c:Here.0208r
+    - She holds out something shiny towards you.0208r
+    - "y:What\u2019s this?0108l"
+    - "You tentatively take the object. It\u2019s a shiny bottle cap.0108l"
+    - c:Shiny. Found. Gift.0108r
+    - y:Is this a gift for me?0208l
+    - The girl nods.0208r
+    - y:Thank you so much. I really appreciate it.0208l
+    - "y:Here\u2019s today\u2019s food. I\u2019ll be back tomorrow.0205l"
+    nextDialogue: {fileID: 11400000, guid: 70435dfba9978244c861a0a558cb0a28, type: 2}
+    bgNum: 1
+    bgm: night

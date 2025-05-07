@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7019135002737759780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2437820074807797610}
+  - component: {fileID: 550179603104683849}
+  - component: {fileID: 2333462002780812954}
+  - component: {fileID: 7874229157793507339}
+  - component: {fileID: 2111671251699469146}
+  m_Layer: 0
+  m_Name: Block
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2437820074807797610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7019135002737759780}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &550179603104683849
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7019135002737759780}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7293598183456022363, guid: 6932cccfd1bca4931b8b2e58b1fff6cf, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &2333462002780812954
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7019135002737759780}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.01539278, y: 0.06926733}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 4.1093435, y: 2.5546718}
+  m_EdgeRadius: 0
+--- !u!114 &7874229157793507339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7019135002737759780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da3a89ba1fb244acab1469a8def8178, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2111671251699469146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7019135002737759780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4173567d9939544b2a4481a8c8312fbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  appleSprite: {fileID: 7293598183456022363, guid: 6932cccfd1bca4931b8b2e58b1fff6cf, type: 3}
+  baconSprite: {fileID: 4638073604318642339, guid: be9ecd451fe644e02bccbc6b75de0b3a, type: 3}
+  bananaSprite: {fileID: 7381965769198725172, guid: e8349899ad11b455c8cf84120109b134, type: 3}
+  beanSprite: {fileID: 4495422397181781673, guid: ba102bdde0b694a448ed21c0c984e7b8, type: 3}
+  breadSprite: {fileID: -1660761858345613354, guid: 1114f444c0c864ec39ef6226038d31cd, type: 3}
+  bread2Sprite: {fileID: 1813879973796809213, guid: b455d810b4cf34b689eddf802e27d8f7, type: 3}
+  bread3Sprite: {fileID: -2225480039789327372, guid: 12263792ed8834fd9b4de214319e39c9, type: 3}
+  bread4Sprite: {fileID: 1597395260604082361, guid: 830f3bc17eb9e40c6b5f1a6a33d6daac, type: 3}
+  broccoliSprite: {fileID: -918663293682559355, guid: b5993bceb24244745ba85613320ca5bf, type: 3}
+  cabbageSprite: {fileID: 159068718711766808, guid: 96e596172562242aa9ef841d8edd6413, type: 3}
+  carrotSprite: {fileID: -5859083586626064994, guid: 9c4d317053d5b42c6a45c11bc6af9051, type: 3}
+  cheeseSprite: {fileID: 6582011127417039112, guid: d689caff213564e1bbf18d648f8ef179, type: 3}
+  chickenLegSprite: {fileID: -7689685193998265335, guid: d275643f16ee149b8804cd359238803f, type: 3}
+  cornSprite: {fileID: -7944502702452990849, guid: 27e011f17e72f40889ea93bf86f762ce, type: 3}
+  cucumberSprite: {fileID: -3513379549867885781, guid: 2a4ca69d9e3c54f9f886109ac81f2a71, type: 3}
+  eggSprite: {fileID: 4646649027328027380, guid: 29c909c99c838411db85ca44b6282f17, type: 3}
+  eggplantSprite: {fileID: -6905139553319271647, guid: db5e1e0b073ce4c3fb21810eceeacedc, type: 3}
+  fishSprite: {fileID: -1915776564401465818, guid: 42576888210504ccea59c3047ae5e40c, type: 3}
+  fishSliceSprite: {fileID: -7645039894603228120, guid: 56504bf1d01274c709b2018f68629efd, type: 3}
+  hamSprite: {fileID: 4456443523020135713, guid: 41d8b5d6be3104c1b9bc35b25593c1da, type: 3}
+  lettuceSprite: {fileID: -7523970955242101793, guid: 0294a3bcb51e34ec5947702e0910a16e, type: 3}
+  mushroomSprite: {fileID: 4315506946141470425, guid: 9eab429b9558441e29a2250f30987a2e, type: 3}
+  noodleSprite: {fileID: 307049234662581677, guid: 0bb2864b7cf5041078e85d8203a95ecd, type: 3}
+  oatsSprite: {fileID: 3713312561453338802, guid: af491f04e9ddc492eb68e667de2f477d, type: 3}
+  riceSprite: {fileID: -3491839630117010820, guid: 6337635ac3fdc491c8e4538c345e7713, type: 3}
+  tofuSprite: {fileID: -5709644183055138361, guid: 4031f1702830a489197e0c634b35cdfc, type: 3}
+  tomatoSprite: {fileID: -8113185096396602001, guid: 3a2f2a9777d284f7094a4082db14fa4a, type: 3}
