@@ -14,38 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RootNode:
     dialogues:
-    - ...0000l
-    - Mother:Once upon a time, there was a cute little girl. She had big, bright
-      eyes that sparkled like the stars and a heart even bigger than the sky.0000l
-    - "Mother:This girl and her mother didn\u2019t have much\u2014just a tiny house
-      with a leaky roof and a garden with more weeds than vegetables. But what they
-      lacked in riches, this girl made up for in kindness.0000l"
-    - Mother:Every morning, the girl would help her mother bake warm bread. They
-      would share it with their neighbors, such as grandpa, who lived alone and told
-      wonderful stories about the past.0000l
-    - "Mother:One day, the girl noticed something troubling\u2014many children were
-      going to bed hungry. Their parents worked hard, but the prices were too high,
-      and there was no land to grow food. The girl couldn\u2019t stand to see her
-      friends suffer.0000l"
-    - Mother:That night, as she lay in bed, an idea sprouted in her mind like a tiny
-      seed.0000l
-    - "Mother:The next morning, she told her friends her plan. \u201CWe can clean
-      out the trash dump by the river, and turn it into a garden for everyone! If
-      we plant food, no one will go hungry.\u201D0000l"
-    - Mother:So, with borrowed tools and hopeful hearts, they began. They dug the
-      dry earth, planted seeds, and carried buckets of water from the river. At first,
-      nothing happened. The sun was harsh, and the soil was stubborn.0000l
-    - "Mother:But she didn\u2019t give up.0000l"
-    - "Mother:Slowly, something magical happened\u2014sprouts peeked through the
-      soil, then leaves, then stems strong enough to dance in the wind. The townspeople
-      began to notice. Inspired by the girl\u2019s dedication, they started helping
-      too.0000l"
-    - Mother:Months passed, and the garden flourished. And standing in the middle
-      of it all, with dirt on her hands and a bright smile on her face, was the girl,
-      who had turned a trash dump into a garden and hunger into hope.0000l
-    - "Mother:And with that, little one, it\u2019s time to dream sweet dreams.0000l"
-    - Mother:Good night, Clare.0000l
-    - ...0000l
+    - "\u2026\u20260000l"
+    - "Mother:\u4ECE\u524D\uFF0C\u6709\u4E2A\u5C0F\u5973\u5B69\u3002\u5979\u7684\u773C\u775B\u4EAE\u6676\u6676\u7684\uFF0C\u50CF\u591C\u7A7A\u91CC\u6700\u4E0D\u613F\u5760\u843D\u7684\u90A3\u9897\u661F\u3002\u5979\u7684\u5FC3\uFF0C\u6BD4\u5929\u66F4\u9AD8\uFF0C\u6BD4\u4E91\u66F4\u8F7B\u30020000l"
+    - "Mother:\u5979\u548C\u5988\u5988\u4F4F\u5728\u4E00\u95F4\u6B6A\u6B6A\u626D\u626D\u7684\u5C0F\u5C4B\u91CC\u3002\u5C4B\u9876\u6F0F\u6C34\uFF0C\u5899\u89D2\u79EF\u7740\u6F6E\u6C14\u3002\u9662\u5B50\u91CC\u8349\u6BD4\u83DC\u591A\uFF0C\u4F46\u5979\u4ECE\u4E0D\u62B1\u6028\u30020000l"
+    - "Mother:\u6BCF\u5929\u65E9\u6668\uFF0C\u5979\u4F1A\u5E2E\u5988\u5988\u70E4\u9762\u5305\u3002\u70ED\u6C14\u4ECE\u7A97\u7F1D\u91CC\u9003\u51FA\u53BB\uFF0C\u50CF\u4E00\u7F15\u7F15\u91D1\u8272\u7684\u5E0C\u671B\u3002\u5979\u4EEC\u628A\u9762\u5305\u5206\u7ED9\u90BB\u5C45\uFF0C\u7ED9\u90A3\u4E2A\u7231\u8BB2\u8FC7\u53BB\u7684\u8001\u7237\u7237\u30020000l"
+    - "Mother:\u76F4\u5230\u6709\u4E00\u5929\uFF0C\u5C0F\u5973\u5B69\u53D1\u73B0\uFF0C\u5F88\u591A\u5B69\u5B50\u662F\u997F\u7740\u809A\u5B50\u7761\u89C9\u7684\u3002\u4ED6\u4EEC\u7684\u7236\u6BCD\u62FC\u547D\u5DE5\u4F5C\uFF0C\u4F46\u7CAE\u98DF\u592A\u8D35\uFF0C\u5730\u65E9\u5C31\u6CA1\u6709\u4E86\u30020000l"
+    - "Mother:\u90A3\u665A\uFF0C\u5979\u8EBA\u5728\u5E8A\u4E0A\uFF0C\u7741\u7740\u773C\u76EF\u7740\u5929\u82B1\u677F\u3002\u4E00\u4E2A\u5FF5\u5934\u6162\u6162\u5728\u5FC3\u5E95\u751F\u6839\u53D1\u82BD\u30020000l"
+    - "Mother:\u7B2C\u4E8C\u5929\uFF0C\u5979\u5BF9\u670B\u53CB\u4EEC\u8BF4\uFF1A\u2018\u6211\u4EEC\u53EF\u4EE5\u53BB\u6E05\u7406\u6CB3\u8FB9\u7684\u5783\u573E\u5730\uFF0C\u79CD\u4E0A\u83DC\u3002\u8FD9\u6837\uFF0C\u5927\u5BB6\u90FD\u80FD\u5403\u9971\u3002\u20190000l"
+    - "Mother:\u4ED6\u4EEC\u501F\u6765\u4E86\u94F2\u5B50\u548C\u6876\uFF0C\u7528\u624B\u6307\u7FFB\u571F\uFF0C\u628A\u6C34\u4E00\u6876\u4E00\u6876\u5730\u4ECE\u6CB3\u91CC\u63D0\u56DE\u6765\u3002\u592A\u9633\u6BD2\u5F97\u50CF\u706B\uFF0C\u571F\u786C\u5F97\u50CF\u77F3\u5934\u3002\u4EC0\u4E48\u4E5F\u6CA1\u957F\u51FA\u6765\u30020000l"
+    - "Mother:\u53EF\u5979\u6CA1\u6709\u653E\u5F03\u30020000l"
+    - "Mother:\u6709\u4E00\u5929\uFF0C\u571F\u91CC\u94BB\u51FA\u4E86\u7EFF\u70B9\u3002\u7136\u540E\u662F\u53F6\uFF0C\u662F\u679D\uFF0C\u662F\u80FD\u968F\u98CE\u6447\u52A8\u7684\u7EC6\u5C0F\u751F\u547D\u3002\u201D\u9547\u4E0A\u7684\u4EBA\u5F00\u59CB\u56F4\u8FC7\u6765\u3002\u6700\u521D\u53EA\u662F\u597D\u5947\uFF0C\u540E\u6765\u662F\u771F\u7684\u60F3\u5E2E\u30020000l"
+    - "Mother:\u51E0\u4E2A\u6708\u8FC7\u53BB\uFF0C\u90A3\u91CC\u6210\u4E86\u4E00\u7247\u83DC\u56ED\u3002\u5979\u7AD9\u5728\u6B63\u4E2D\uFF0C\u53CC\u624B\u6CBE\u6EE1\u6CE5\u5DF4\uFF0C\u7B11\u5F97\u50CF\u82B1\u4E00\u6837\u660E\u4EAE\u30020000l"
+    - "Mother:\u4EB2\u7231\u7684\u5B9D\u8D1D\uFF0C\u95ED\u4E0A\u773C\u5427\u3002
+      \u68A6\u4F1A\u5E26\u4F60\u56DE\u5230\u90A3\u91CC\u30020000l"
+    - "Mother:\u665A\u5B89\uFF0C\u514B\u83B1\u5C14\u30020000l"
+    - "\u2026\u20260000l"
     nextDialogue: {fileID: 0}
     bgNum: 1
     bgm: story

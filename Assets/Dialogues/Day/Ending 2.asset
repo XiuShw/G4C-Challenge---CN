@@ -14,25 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RootNode:
     dialogues:
-    - The Next Day0000l
-    - "Food Bank Headquarters \u2013 Afternoon0000l"
-    - "p:Hey, you! What\u2019s been going on? I heard part of the food supply was
-      missing last night.0312r"
-    - p:You better not have done anything behind my back.0312r
-    - "p:Nevermind. I\u2019ll just go ask the workers. They\u2019ll know what\u2019s
-      up.0312r"
-    - 'w: Sir, I can testify. Yesterday, the president ordered me to leave and took
-      care of the supplies himself. I can tell you which specific boxes had not been
-      processed at that point.1512l'
-    - "p: Ah\u2026I see.1512r"
-    - "p: It\u2019s really not that hard. Following instructions, I mean. But you
-      couldn\u2019t even do such a simple thing.0312r"
-    - 'y: So you insist on leaving your people to their doom?0312l'
-    - "p: Well, it\u2019s none of your business anymore. You\u2019re fired.0311r"
-    - "y: What? You can\u2019t just-0411l"
-    - "p: Why not? I\u2019m the one in charge here. Goodbye. You should go pack your
-      bags now.0311r"
-    - The End.0000l
+    - "\u9694\u59290000l"
+    - "\u98DF\u7269\u6551\u6D4E\u7AD9\u603B\u90E8\u2014\u2014\u4E0B\u53480000l"
+    - "p:\u5582\uFF0C\u4F60\uFF01\u5230\u5E95\u600E\u4E48\u56DE\u4E8B\uFF1F\u6211\u542C\u8BF4\u6628\u665A\u6709\u4E00\u6279\u98DF\u7269\u5931\u8E2A\u4E86\u30020312r"
+    - "p:\u4F60\u8BE5\u4E0D\u4F1A\u80CC\u7740\u6211\u505A\u4E86\u4EC0\u4E48\u5427\uFF1F0312r"
+    - "p:\u7B97\u4E86\uFF0C\u6211\u76F4\u63A5\u53BB\u95EE\u5458\u5DE5\u3002\u603B\u6709\u4EBA\u4F1A\u8BF4\u5B9E\u8BDD\u7684\u30020312r"
+    - "w: \u6211\u53EF\u4EE5\u4F5C\u8BC1\u3002\u6628\u5929\u665A\u4E0A\uFF0C\u4F1A\u957F\u547D\u4EE4\u6211\u79BB\u5F00\uFF0C\u81EA\u5DF1\u63A5\u624B\u4E86\u4ED3\u5E93\u7269\u8D44\u7684\u5904\u7406\u3002\u6211\u8FD8\u8BB0\u5F97\u662F\u54EA\u51E0\u7BB1\u6CA1\u7ECF\u8FC7\u767B\u8BB0\u30021512l"
+    - "p: \u554A\u2026\u2026\u8FD9\u6837\u554A\u30021512r"
+    - "p: \u8BF4\u5B9E\u8BDD\uFF0C\u6211\u90FD\u66FF\u4F60\u611F\u5230\u53EF\u60DC\u3002\u7167\u89C4\u77E9\u505A\u4E8B\u6709\u90A3\u4E48\u96BE\u5417\uFF1F\u4F60\u8FDE\u8FD9\u4E48\u7B80\u5355\u7684\u4E8B\u90FD\u505A\u4E0D\u5230\u30020312r"
+    - "y: \u4F60\u5C31\u771F\u7684\u7518\u613F\uFF0C\u8BA9\u4ED6\u4EEC\u997F\u6B7B\uFF1F0312l"
+    - "p: \u8FD9\u90FD\u4E0D\u91CD\u8981\u4E86\u3002\u53CD\u6B63\u4F60\u4E5F\u4E0D\u5F52\u6211\u7BA1\u4E86\uFF0C\u4ECE\u73B0\u5728\u5F00\u59CB\uFF0C\u4F60\u88AB\u89E3\u96C7\u4E86\u30020311r"
+    - "y: \u4EC0\u4E48\uFF1F\u4F60\u4E0D\u80FD\u2014\u20140411l"
+    - "p: \u600E\u4E48\u4E0D\u80FD\uFF1F\u5728\u8FD9\u91CC\u662F\u6211\u8BF4\u4E86\u7B97\u3002\u4F60\u8BE5\u53BB\u6536\u62FE\u884C\u674E\u4E86\uFF0C\u73B0\u5728\u5FEB\u6EDA\u51FA\u6211\u7684\u529E\u516C\u5BA4\u5427\u30020311r"
+    - "\u5B8C0000l"
     nextDialogue: {fileID: 0}
     bgNum: 2
     bgm: suspense

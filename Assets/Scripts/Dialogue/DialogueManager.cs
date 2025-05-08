@@ -150,7 +150,7 @@ public class DialogueManager : MonoBehaviour
             typingTween.Kill();
         }
 
-        typingTween = DOTween.To(() => "", x => DialogBodyText.text = AddTags(x), dialogue, dialogue.Length * 0.02f)
+        typingTween = DOTween.To(() => "", x => DialogBodyText.text = AddTags(x), dialogue, dialogue.Length * 0.05f)
             .SetEase(Ease.Linear)
             .OnComplete(() =>
             {
@@ -181,10 +181,11 @@ public class DialogueManager : MonoBehaviour
         string name = text.Substring(0, colonIndex);
         return name switch
         {
-            "y" => "You",
-            "c" => "Clare",
-            "p" => "Politician",
-            "w" => "Worker",
+            "y" => "你",
+            "c" => "克莱尔",
+            "p" => "政客",
+            "w" => "员工",
+            "woman" => "孕妇",
             _ => name
         };
     }

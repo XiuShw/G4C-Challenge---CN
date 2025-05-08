@@ -14,30 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RootNode:
     dialogues:
-    - You decide to return to the food pantry and find the food distribution list.
-      From there, you track out the foods that will be rerouted, probably for another
-      party, and pack the food into your bag.0100l
-    - y:Huh? You-0415l
-    - "w:If I report you, I\u2019ll get a reward.0416r"
-    - "y:I\u2019m just giving the food to the people it rightfully belongs to.0316l"
-    - "y:As a labor worker you\u2019re probably not very well off. I can\u2019t blame
-      you for wanting that money. But here\u2019s so many people that need help and
-      they aren't getting it. I\u2019m just giving it to them. Can\u2019t you at
-      least give those people a chance?0116l"
-    - ???:Um, mister?0400r
-    - You turn around at the familiar voice.0406l
-    - y:Clare? What are you doing here?0406l
-    - She glances nervously at the food pantry worker.0406r
-    - "w:Clare\u2026that name\u2026no way, are you\u2026?0115r"
-    - y:What? Do you know her?0115l
-    - "w:That must be Sarah\u2019s child\u2026She worked here back then\u2026I knew
-      she had a child, but- We couldn\u2019t afford to take in anyone else anymore.0115r"
-    - Clare does seem to fully understand what the man is saying and walks to hide
-      behind you.0107r
-    - "y:You don\u2019t need to worry, I\u2019ll take care of her.0115l"
-    - The worker glances between you and her, then crouches down to her level.0715r
-    - w:Hey, Clare, these past few days, have, have you been getting food?0715r
-    - Clare frowns.0615l
-    - c:Many. No food. Hungry.0615l
+    - "\u4F60\u8FD4\u56DE\u4ED3\u5E93\uFF0C\u7FFB\u51FA\u6700\u65B0\u4E00\u6279\u7684\u5206\u53D1\u6E05\u5355\u3002
+      \u987A\u7740\u90A3\u4E32\u88AB\u8C03\u62E8\u7684\u6807\u7B7E\uFF0C\u4F60\u4E00\u4E00\u5B9A\u4F4D\u4E86\u5373\u5C06\u88AB\u201C\u53E6\u4F5C\u5B89\u6392\u201D\u7684\u90A3\u51E0\u6279\u3002
+      \u4F60\u6253\u5F00\u80CC\u5305\uFF0C\u5C06\u5176\u4E2D\u4E00\u4E9B\u88C5\u8FDB\u53BB\u30020100l"
+    - "y:\u54A6\uFF1F\u4F60....!0415l"
+    - "w:\u6211\u8981\u662F\u73B0\u5728\u4E3E\u62A5\u4F60\uFF0C\u8BF4\u4E0D\u5B9A\u8FD8\u80FD\u62FF\u7B14\u5956\u91D1\u30020416r"
+    - "y:\u6211\u53EA\u662F\u628A\u98DF\u7269\u9001\u56DE\u5B83\u771F\u6B63\u8BE5\u53BB\u7684\u5730\u65B9\u30020316l"
+    - "y:\u4F60\u4E5F\u662F\u6253\u5DE5\u4EBA\u5427\uFF1F\u6211\u4E0D\u602A\u4F60\u60F3\u62FF\u70B9\u94B1\u3002\u4F46\u90A3\u8FB9\uFF0C\u6709\u5F88\u591A\u4EBA\uFF0C\u4ED6\u4EEC\u8FDE\u6D3B\u4E0B\u53BB\u7684\u673A\u4F1A\u90FD\u6CA1\u6709\u3002\u4F60\u5C31\u4E0D\u80FD\u4E5F\u7ED9\u4ED6\u4EEC\u4E00\u6B21\u673A\u4F1A\uFF1F0116l"
+    - "???:\u5148\u751F\u2026\u2026\uFF1F0400r"
+    - "\u4F60\u542C\u89C1\u4E86\u719F\u6089\u7684\u58F0\u97F3\uFF0C\u731B\u7136\u8F6C\u8EAB\u30020406l"
+    - "y:\u514B\u83B1\u5C14\uFF1F\u4F60\u600E\u4E48\u5728\u8FD9\u91CC\uFF1F0406l"
+    - "\u5979\u7AD9\u5728\u4E0D\u8FDC\u5904\uFF0C\u6709\u4E9B\u7D27\u5F20\uFF0C\u773C\u795E\u8EB2\u95EA\u5730\u671B\u5411\u90A3\u4E2A\u5DE5\u4EBA\u30020406r"
+    - "w:\u514B\u83B1\u5C14\u2026\u2026\u8FD9\u4E2A\u540D\u5B57\u2026\u2026\u4E0D\u53EF\u80FD\u5427\uFF0C\u4F60\u662F\u2026\u2026\uFF1F0115r"
+    - "y:\u4F60\u8BA4\u8BC6\u5979\uFF1F0115l"
+    - "w:\u90A3\u662F\u585E\u62C9\u7684\u5B69\u5B50\u2026\u2026\u5979\u4EE5\u524D\u5728\u8FD9\u513F\u5E72\u8FC7\u6D3B\u2026\u2026\u6211\u8BB0\u5F97\u5979\u8BF4\u8FC7\u6709\u4E2A\u5973\u513F\u2026\u2026\u4F46\u90A3\u65F6\u5019\uFF0C\u6211\u4EEC\u5B9E\u5728\u6CA1\u6CD5\u518D\u517B\u66F4\u591A\u4EBA\u4E86\u2026\u20260115r"
+    - "\u514B\u83B1\u5C14\u6CA1\u6709\u5B8C\u5168\u542C\u61C2\u5BF9\u8BDD\u7684\u5185\u5BB9\u3002
+      \u5979\u53EA\u662F\u7F13\u7F13\u5730\u85CF\u5230\u4F60\u7684\u8EAB\u540E\u30020107r"
+    - "y:\u522B\u62C5\u5FC3\u3002\u6211\u4F1A\u7167\u987E\u597D\u5979\u7684\u30020115l"
+    - "\u5DE5\u4EBA\u6C89\u9ED8\u7740\u770B\u7740\u4F60\u4EEC\uFF0C\u7136\u540E\u7F13\u7F13\u8E72\u4E0B\u6765\uFF0C\u9762\u5411\u514B\u83B1\u5C14\u30020715r"
+    - "w:\u563F\uFF0C\u514B\u83B1\u5C14\u3002\u8FD9\u51E0\u5929\u2026\u2026\u4F60\u6709\u5403\u7684\u5417\uFF1F0715r"
+    - "\u514B\u83B1\u5C14\u76B1\u8D77\u7709\u30020615l"
+    - "c:\u5F88\u591A\u4EBA\u2026\u2026\u6CA1\u5403\u3002\u997F\u30020615l"
     nextDialogue: {fileID: 11400000, guid: 94aacb3caa65d3646bf57b21b40b7769, type: 2}
     bgNum: 2
+    bgm: 
