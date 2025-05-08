@@ -93,6 +93,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (step <= 0)
         {
+            step = 0;
+            setpText.color = new Color(0.6f, 0f, 0f);
             outOfStep = true;
             stepWarn.SetActive(true);
         }
@@ -124,6 +126,7 @@ public class PlayerMovement : MonoBehaviour
             isRiding = true;
             AudioSFXManager.Instance.PlayAudio("zip");
             step -= 1;
+            if (outOfStep) { MapLevelManager.Instance.scoreResult -= 1; }
             return;
         }
 

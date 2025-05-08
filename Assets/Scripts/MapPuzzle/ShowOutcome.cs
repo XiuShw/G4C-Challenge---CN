@@ -21,14 +21,14 @@ public class ShowOutcome : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (MapLevelManager.Instance.countRestart <= 0)
+        if (MapLevelManager.Instance.countRestarts <= 0)
         {
             restartTime.text = "";
             restartWarn.SetActive(true);
         }
         else
         {
-            restartTime.text = "Ê£Óà" + MapLevelManager.Instance.countRestart.ToString() + "´Î";
+            restartTime.text = "Ê£Óà" + MapLevelManager.Instance.countRestarts.ToString() + "´Î";
         }
 
 

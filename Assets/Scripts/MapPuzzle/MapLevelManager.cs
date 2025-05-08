@@ -12,16 +12,15 @@ public class MapLevelManager : MonoBehaviour
     private float originFoodOwn;
     private Slider slider;
     private int sceneIndex;
-    public int countRestart = 10;
     private int peopleWFood = 0;
     private int peopleFedThisLevel = 0;
     [SerializeField] float fillSpeed = 10f;
 
 
 
-
+    public int countRestarts = 10;
     public int scoreResult = 0;
-
+    public int originScore = 0;
 
 
     void Awake()
@@ -48,11 +47,11 @@ public class MapLevelManager : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         //sceneIndex = SceneManager.GetActiveScene().buildIndex;
-        Debug.Log("scene loaded: " + sceneIndex);
-        scoreResult = 0;
-        if (countRestart <= 0)
+        //Debug.Log("scene loaded: " + sceneIndex);
+        scoreResult = originScore;
+        if (countRestarts <= 0)
         {
-            scoreResult += countRestart;
+            scoreResult += countRestarts;
         }
         peopleFedThisLevel = 0;
         AudioSFXManager.Instance.PlayAudio("thump");
@@ -71,7 +70,7 @@ public class MapLevelManager : MonoBehaviour
             foodOwn = beginFoodOwn;
             peopleWFood -= peopleFedThisLevel;
             peopleFedThisLevel = 0;
-            countRestart--;
+            countRestarts--;
 
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
@@ -82,7 +81,7 @@ public class MapLevelManager : MonoBehaviour
             peopleWFood = 0;
             peopleFedThisLevel = 0;
             peopleWFood = 0;
-            countRestart--;
+            countRestarts--;
 
             SceneManager.LoadScene(sceneIndex);
         }
@@ -120,5 +119,10 @@ public class MapLevelManager : MonoBehaviour
     }
     public void peopleWFoodReset() {
         peopleWFood = 0;
+    }
+
+    private void OnDestroy()
+    {
+        GameManager.outcomeValue += MapLevelManager.Instance.scoreResult;
     }
 }

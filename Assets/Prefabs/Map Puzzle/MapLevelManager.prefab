@@ -46,4 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   foodOwn: 10
   beginFoodOwn: 10
+  countRestart: 10
   fillSpeed: 10
+  scoreResult: 0

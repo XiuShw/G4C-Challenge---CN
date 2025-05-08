@@ -14,18 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RootNode:
     dialogues:
-    - Here is the amount of space you have to fit the food.
-    - And here are other food options.
-    - 'In order to maintain a nutritional diet, the food is divided into three categories:
-      Fruits and vegetables, grains, and protein.'
-    - Your goal is to fit the food into the space available and meet the following
-      nutritional requirements for each of the 3 categories.
-    - You can do so by dragging food blocks into the space, but you need to have
-      enough gridspace to properly place the food.
-    - You can always flip or rotate the food with the following keybinds to help
-      it better fit into the space.
-    - "{Remember to press SPACE to confirm the food\u2019s location.}"
-    - If you are unsure about what to do, click on the TUTORIAL tab for help.
+    - "\u6D45\u8272\u683C\u5B50\u662F\u4F60\u7684\u80CC\u5305\u680F\u4F4D\uFF0C\u901A\u8FC7\u70B9\u51FB\u53EF\u4EE5\u89E3\u9501\u9ED1\u8272\u683C\u5B50\uFF0C\u4F46\u8FD9\u4F1A\u8BA9\u8001\u677F\u8D77\u7591\u5FC3\uFF01"
+    - "\u8FD9\u4E9B\u662F\u53EF\u4EE5\u9009\u62E9\u643A\u5E26\u7684\u98DF\u7269\uFF0C\u3010\u7EFF\u8272\u4E3A\u852C\u679C\u3011\uFF0C\u3010\u7EA2\u8272\u4E3A\u86CB\u767D\u8D28\u3011\uFF0C\u3010\u767D\u8272\u4E3A\u8C37\u7269\u3011"
+    - "\u5BF9\u4E8E\u6BCF\u79CD\u7C7B\u578B\u7684\u98DF\u7269\uFF0C\u4F60\u90FD\u9700\u8981\u643A\u5E26\u8DB3\u591F\u6570\u91CF\uFF0C\u98DF\u7269\u683C\u5B50\u6570\u8D8A\u591A\u5206\u91CF\u4E5F\u5C31\u8D8A\u5927"
+    - "\u6B64\u4E3A\u6B64\u6B21\u7684\u76EE\u6807\uFF0C\u4E0A\u65B9\u5206\u522B\u4E3A\u3010\u852C\u83DC\u3011\u3010\u86CB\u767D\u3011\u3010\u8C37\u7269\u3011\u7684\u8981\u6C42\uFF0C\u540C\u65F6\u8FD8\u9700\u8981\u586B\u6EE1\u4E0B\u65B9\u7684\u8FDB\u5EA6\u6761\u4EE5\u786E\u4FDD\u98DF\u7269\u6570\u91CF\u8DB3\u591F"
+    - "\u901A\u8FC7\u62D6\u62FD\u5C06\u98DF\u7269\u653E\u5165\u683C\u5B50\uFF0C\u5BF9\u51C6\u540E\u8BF7\u6309\u3010\u7A7A\u683C\u3011\uFF01"
+    - "\u8FC7\u7A0B\u4E2D\u53EF\u4EE5\u3010\u65CB\u8F6C\u3011\uFF0C\u6C34\u5E73/\u5782\u76F4\u3010\u7FFB\u8F6C\u3011\u98DF\u7269"
+    - "\u8BB0\u5F97\u6446\u597D\u540E\u6309\u3010\u7A7A\u683C\u3011\u4F7F\u6446\u653E\u751F\u6548\uFF01"
+    - "\u5C4F\u5E55\u4E0A\u63D0\u4F9B\u4E86\u5BF9\u5E94\u7684\u64CD\u4F5C\u6307\u5357\uFF0C\u91CD\u770B\u6559\u7A0B\u8BF7\u70B9\u51FB\u6559\u7A0B"
     nextDialogue: {fileID: 0}
     bgNum: 0
     bgm: 

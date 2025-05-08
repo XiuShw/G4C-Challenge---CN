@@ -9,7 +9,7 @@ public class OutcomeSlider : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        slider = GameObject.Find("Outcome Slider").GetComponent<Slider>();
+        slider = GetComponent<Slider>();
     }
 
     // Update is called once per frame

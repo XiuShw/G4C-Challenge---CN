@@ -21,8 +21,11 @@ public class UnlockableGrid : MonoBehaviour
 
     private void OnMouseDown()
     {
+        Debug.Log(GameManager.outcomeValue);
+        GameManager.outcomeValue -= 1;
+        Debug.Log(GameManager.outcomeValue);
+
         GameManager.blockGridArray[row][column] = 0;
-        Debug.Log(GameManager.blockGridArray[row][column]);
         GridScript.initGrid(GameManager.blockGridArray, GameManager.blockXOffset, GameManager.blockYOffset, GameManager.blockSolutionArray, GameManager.day);
         Destroy(gameObject);
     }

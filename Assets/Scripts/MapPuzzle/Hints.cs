@@ -14,7 +14,7 @@ public class Hints : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (MapLevelManager.Instance.countRestart > whenToShow)
+        if (MapLevelManager.Instance.countRestarts > whenToShow)
         {
             spriteRenderer.enabled = true;
             if (!spriteOn) {

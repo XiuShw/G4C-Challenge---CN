@@ -21,14 +21,13 @@ public class Destination : MonoBehaviour
 
             if (beltsNull || beltsSafe)
             {
+                MapLevelManager.Instance.originScore = MapLevelManager.Instance.scoreResult;
                 if (isLastPuzzle)
                 {
                     GameManager.peopleFed += MapLevelManager.Instance.GetpeopleWFood();
                     MapLevelManager.Instance.peopleWFoodReset();
                     Destroy(MapLevelManager.Instance.gameObject);
                 }
-
-                MapLevelManager.Instance.countRestart = 0;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
             else
