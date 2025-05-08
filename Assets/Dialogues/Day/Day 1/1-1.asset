@@ -14,20 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RootNode:
     dialogues:
-    - "Food Bank Headquarters \u2013 Morning0000l"
-    - "p:So you\u2019re the new food bank president, huh? Congratulations!0111r"
-    - "p:By the way, it seems that you don\u2019t seem to be from here.0110r"
-    - "y:That\u2019s correct.0110l"
-    - "p:In that case, welcome! We\u2019re thrilled to have you.0111r"
-    - "p:This food bank is crucial to our city\u2019s welfare. We just need to ensure
-      proper allocation of resources. Of course, the larger pantries and soup kitchens
-      should take priority.0110r"
-    - "p:Our properties house many people in need. If you could\u2026 direct some
-      extra supplies our way, we\u2019d be grateful.0110r"
-    - He slides an envelope across the desk.0110r
-    - p:A small token of appreciation.0111r
-    - "y:Let\u2019s not get too hasty. It\u2019s just my first day here, after all.
-      Actually, I haven\u2019t even seen my office yet\u20260110l"
+    - "\u98DF\u7269\u6551\u6D4E\u7AD9\u603B\u90E8 \u2014\u2014 \u6E05\u66680000l"
+    - "p:\u6240\u4EE5\u4F60\u5C31\u662F\u6551\u6D4E\u7AD9\u7684\u65B0\u4EFB\u4F1A\u957F\uFF1F\u795D\u8D3A\u554A\uFF010111r"
+    - "p:\u770B\u4F60\u7684\u6837\u5B50\uFF0C\u4F3C\u4E4E\u4E0D\u662F\u672C\u5730\u4EBA\u5427\uFF1F0110r"
+    - "y:\u2026\u2026\u786E\u5B9E\u5982\u6B64\u30020110l"
+    - "p:\u90A3\u6B22\u8FCE\u6B22\u8FCE\uFF010111r"
+    - "p:\u8FD9\u5EA7\u98DF\u7269\u6551\u6D4E\u7AD9\u53EF\u662F\u6211\u4EEC\u57CE\u5E02\u793E\u4F1A\u798F\u5229\u7684\u5173\u952E\u3002\u6211\u4EEC\u552F\u4E00\u8981\u505A\u7684\uFF0C\u5C31\u662F\u628A\u8D44\u6E90\u5206\u914D\u5F97\u66F4\u2018\u59A5\u5F53\u2019\u3002\u5F53\u7136\u5566\uFF0C\u4F53\u91CF\u5927\u7684\u4ED3\u5E93\u548C\u65BD\u7CA5\u7AD9\u5E94\u5F53\u4F18\u5148\u30020110r"
+    - "p:\u6211\u4EEC\u65D7\u4E0B\u7684\u5730\u4EA7\u5B89\u7F6E\u4E86\u8BB8\u591A\u6709\u9700\u8981\u7684\u4EBA\u3002\u5982\u679C\u4F60\u80FD\u2026\u2026\u591A\u62E8\u70B9\u7269\u8D44\u8FC7\u6765\uFF0C\u90A3\u5C31\u518D\u597D\u4E0D\u8FC7\u4E86\u3002Our
+      properties house many people in need. If you could\u2026 direct some extra
+      supplies our way, we\u2019d be grateful.0110r"
+    - "\u4ED6\u7F13\u7F13\u5730\u628A\u4E00\u4E2A\u725B\u76AE\u7EB8\u4FE1\u5C01\u63A8\u8FC7\u684C\u9762\u30020110r"
+    - "p:\u4E00\u70B9\u5C0F\u610F\u601D\u30020111r"
+    - "y:\u4E0D\u7528\u7740\u6025\uFF0C\u81F3\u5C11\u5148\u8BA9\u6211\u770B\u770B\u529E\u516C\u5BA4\u518D\u804A\u5427\u30020110l"
     nextDialogue: {fileID: 11400000, guid: cc1dff6a9a9938e479393dcb528cd1e1, type: 2}
     bgNum: 0
     bgm: chill

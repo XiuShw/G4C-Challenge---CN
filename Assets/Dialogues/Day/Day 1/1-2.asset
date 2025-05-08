@@ -14,36 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RootNode:
     dialogues:
-    - "Outside the Food Bank \u2013 Afternoon0000l"
-    - "???:\u20260105r"
-    - "You notice a disheveled girl standing on the side of the street. Judging from
-      her condition, she probably hasn\u2019t eaten in days.0405r"
-    - You pull out a piece of bread from your bag and offer it to the girl.0105l
+    - "\u8857\u9053\u4E00\u9685 \u2014\u2014 \u4E0B\u53480000l"
+    - "???:\u2026\u20260105r"
+    - "\u8857\u8FB9\u4F2B\u7ACB\u7740\u4E00\u4E2A\u8863\u886B\u4E0D\u6574\u7684\u5C0F\u5973\u5B69\u3002\u7626\u5F31\uFF0C\u6C89\u9ED8\uFF0C\u662F\u88AB\u8FD9\u4E2A\u57CE\u5E02\u9057\u5FD8\u7684\u4F17\u591A\u5F53\u4E2D\u7684\u4E00\u4E2A\u3002\u4F60\u51E0\u4E4E\u80FD\u4E00\u773C\u770B\u51FA\u5979\u5DF2\u7ECF\u597D\u51E0\u5929\u6CA1\u5403\u4E1C\u897F\u4E86\u30020405r"
+    - "\u4F60\u4ECE\u80CC\u5305\u91CC\u638F\u51FA\u4E00\u5C0F\u5757\u9762\u5305\uFF0C\u9012\u8FC7\u53BB\u30020105l"
     - ???:!0106r
-    - "y:It\u2019s okay. I\u2019m just trying to give you some food. Here, just take
-      it.0206l"
-    - The girl is still a little hesitant, but she slowly approaches you and tentatively
-      takes the bread from you.0207r
+    - "y:\u6CA1\u5173\u7CFB\u7684\uFF0C\u522B\u6015\u3002\u6765\uFF0C\u62FF\u7740\u5427\u30020206l"
+    - "\u5C0F\u5973\u5B69\u6709\u4E9B\u8FDF\u7591\uFF0C\u4F46\u7EC8\u4E8E\u8D70\u4E0A\u524D\uFF0C\u98A4\u98A4\u5DCD\u5DCD\u5730\u4F38\u624B\u63A5\u8FC7\u30020207r"
     - ???:!!!0208r
-    - "The girl\u2019s face lights up as she happily bites into the bread.0208r"
-    - However, she eats too hurriedly and starts to cough.0406r
-    - "y:Hey, careful. Eating too fast isn\u2019t good. Here\u2019s some water.0206l"
-    - y:Do you have a name?0205l
-    - ???:N-name?0205r
-    - y:What should I call you?0205l
-    - "???:\u20260205r"
-    - y:Hm?0205l
-    - c:Clare.0205r
-    - "y:That\u2019s a beautiful name.0205l"
-    - "You smile gently, but you can see the guardedness in her eyes. It\u2019s as
-      if the kindness feels foreign to her.0205l"
-    - c:G-grandpa. There.0106r
-    - She points into what seems to be a dead end.0106r
-    - c:Follow. Help.0106r
-    - y:You want me to follow you? 0406l
-    - Clare nods.0107l
-    - "y:Okay, let\u2019s go.0105l"
-    - "Clare leads you to a narrow alleyway that you\u2019ve never noticed. After
-      a series of twists and turns, the sight you see shocks you.0405l"
+    - "\u5979\u4E00\u54AC\uFF0C\u773C\u775B\u7ACB\u523B\u4EAE\u4E86\u8D77\u6765\u30020208r"
+    - "\u5374\u53C8\u5403\u5F97\u592A\u6025\uFF0C\u88AB\u545B\u5230\u54B3\u55FD\u30020406r"
+    - "y:\u6162\u70B9\u5403\uFF0C\u5C0F\u5FC3\u564E\u7740\u3002\u6765\uFF0C\u4E00\u70B9\u6C34\u30020206l"
+    - "y:\u5BF9\u4E86\u2026\u2026\u4F60\u53EB\u4EC0\u4E48\u540D\u5B57\uFF1F0205l"
+    - "???:\u2026\u2026\u540D\u3001\u5B57\uFF1F0205r"
+    - "y:\u55EF\u3002\u6211\u8BE5\u600E\u4E48\u79F0\u547C\u4F60\uFF1F0205l"
+    - "???:\u2026\u20260205r"
+    - "y:\u55EF\uFF1F0205l"
+    - "c:\u514B\u83B1\u5C14\u30020205r"
+    - "y:\u5F88\u6F02\u4EAE\u7684\u540D\u5B57\u30020205l"
+    - "\u4F60\u5FAE\u5FAE\u4E00\u7B11\uFF0C\u5374\u4ECE\u5979\u773C\u795E\u91CC\u770B\u51FA\u4E00\u79CD\u8B66\u60D5\u3002\u90A3\u662F\u5BF9\u5584\u610F\u6781\u5EA6\u964C\u751F\u4E4B\u540E\u7684\u672C\u80FD\u9632\u536B\u30020205l"
+    - "c:\u7237\u7237\u3002\u5728\u90A3\u30020106r"
+    - "\u5979\u6307\u4E86\u6307\u5DF7\u5B50\u5C3D\u5934\u30020106r"
+    - "c:\u8DDF\u6211\u3002\u5E2E\u30020106r"
+    - "y:\u4F60\u662F\u2026\u2026\u5E0C\u671B\u6211\u8FC7\u53BB\uFF1F 0406l"
+    - "\u514B\u83B1\u5C14\u70B9\u4E86\u70B9\u5934\u30020107l"
+    - "y:\u597D\u3002\u5E26\u8DEF\u5427\u30020105l"
+    - "\u514B\u83B1\u5C14\u5F15\u4F60\u7A7F\u8FC7\u4E00\u6761\u4F60\u4ECE\u672A\u6CE8\u610F\u8FC7\u7684\u7A84\u5DF7\u3002\u5979\u4E2A\u5934\u5C0F\uFF0C\u6B65\u4F10\u8F7B\uFF0C\u4F60\u7D27\u968F\u5176\u540E\u3002\u8857\u9053\u6108\u53D1\u660F\u6697\uFF0C\u811A\u4E0B\u7684\u7816\u77F3\u4E5F\u5F00\u59CB\u677E\u52A8\u7834\u88C2\u3002\u51E0\u6B21\u8F6C\u5F2F\u540E\uFF0C\u773C\u524D\u7684\u666F\u8C61\u4EE4\u4F60\u9A7B\u8DB3\u30020405l"
     nextDialogue: {fileID: 11400000, guid: ab26c3edb8d0a1e4b90ca2961b29f3e0, type: 2}
     bgNum: 0
+    bgm: 

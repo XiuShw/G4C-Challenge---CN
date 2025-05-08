@@ -14,25 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RootNode:
     dialogues:
-    - The Next Day0000l
-    - "Politician\u2019s Food Pantry \u2013 Morning0000l"
-    - You decide to head to the food pantry to investigate the food distribution.
-      What was causing this heavy proportion of malnourishment within the city?0000l
-    - When you arrive, you see that the place is well-stocked, but something feels
-      off.0100l
-    - "y:Canned goods, instant noodles, mass-produced white bread\u20260115l"
-    - "y:Where\u2019s all the fresh food? There doesn\u2019t seem to be any protein
-      sources either.0115l"
-    - y:Even if there is enough food, this level of nutrition will still cause long-term
-      health issues.0115l
-    - "w:Look, I just do my job. I sort the food. Don\u2019t ask me.0116r"
-    - y:Then do you know where the distribution document is?0116l
-    - The food pantry worker reluctantly hands you a sheet of paper.0116r
-    - "y:Hmm\u2026these labels suggest that many items are intended for public distribution,
-      but\u2026these\u2026are getting rerouted?0115l"
-    - You are about to ask the worker, but you notice their nervous expression.0115r
-    - "Well, it\u2019s not fair to pressure the workers, who are probably just doing
-      their job. It\u2019s better to question the source.0115l"
+    - "\u9694\u59290000l"
+    - "\u653F\u5BA2\u540D\u4E0B\u98DF\u7269\u4ED3\u5E93 \u2013 \u6E05\u66680000l"
+    - "\u4F60\u51B3\u5B9A\u4EB2\u81EA\u53BB\u4E00\u8D9F\u3002 \u6628\u591C\u89C1\u5230\u7684\u666F\u8C61\u81F3\u4ECA\u8FD8\u7D27\u8D34\u5728\u773C\u5E95\u3002
+      \u4F60\u5FC5\u987B\u5F04\u6E05\u695A\uFF0C\u7A76\u7ADF\u662F\u4EC0\u4E48\uFF0C\u8BA9\u8FD9\u5EA7\u57CE\u5E02\u5728\u6570\u5B57\u770B\u8D77\u6765\u65E0\u6059\u7684\u540C\u65F6\uFF0C\u5374\u6709\u4EBA\u997F\u5230\u773C\u795E\u53D1\u7A7A\u30020000l"
+    - "\u4ED3\u5E93\u91CC\u6574\u6574\u9F50\u9F50\uFF0C\u7269\u8D44\u5806\u5F97\u6EE1\u6EE1\u3002
+      \u4F46\u6C14\u5473\u91CC\u5374\u6DF7\u7740\u4E00\u4E1D\u8BF4\u4E0D\u51FA\u7684\u51B7\u6DE1\u30020100l"
+    - "y:\u7F50\u5934\u98DF\u54C1\uFF0C\u901F\u98DF\u9762\uFF0C\u5927\u6279\u91CF\u751F\u4EA7\u7684\u767D\u9762\u5305\u2026\u20260115l"
+    - "y:\u65B0\u9C9C\u7684\u5462\uFF1F\u6709\u86CB\u767D\u8D28\u7684\u5462\uFF1F0115l"
+    - "y:\u5C31\u7B97\u5403\u5F97\u9971\uFF0C\u8FD9\u79CD\u8425\u517B\u7ED3\u6784\u8FDF\u65E9\u4F1A\u51FA\u4E8B\u2026\u2026.0115l"
+    - "w:\u6211\u53EA\u662F\u5206\u62E3\u7684\uFF0C\u4F60\u522B\u95EE\u6211\u30020116r"
+    - "y:\u90A3\u4F60\u77E5\u9053\u5206\u914D\u6E05\u5355\u5728\u54EA\u5417\uFF1F0116l"
+    - "\u4ED6\u72B9\u8C6B\u4E86\u4E00\u4E0B\uFF0C\u7EC8\u7A76\u8FD8\u662F\u4ECE\u62BD\u5C49\u91CC\u62BD\u51FA\u4E00\u5F20\u7EB8\u3002
+      \u4F60\u4F4E\u5934\u4E00\u770B\u30020116r"
+    - "y:\u2026\u2026\u8FD9\u4E9B\u6807\u6CE8\u539F\u672C\u662F\u2018\u516C\u4F17\u5206\u53D1\u2019\uFF0C\u4F46\u8FD9\u4E9B\u6279\u6B21\u2026\u2026\u88AB\u8F6C\u8D70\u4E86\uFF1F0115l"
+    - "\u4F60\u6B63\u60F3\u8FFD\u95EE\uFF0C\u5374\u6CE8\u610F\u5230\u4ED6\u773C\u89D2\u62BD\u52A8\u4E86\u4E00\u4E0B\uFF0C\u795E\u60C5\u53D1\u7D27\u3002
+      \u4F60\u987F\u4F4F\u4E86\u30020115r"
+    - "\u4ED6\u4EEC\u53EA\u662F\u6267\u884C\u547D\u4EE4\u7684\u4EBA\u3002 \u4F60\u77E5\u9053\uFF0C\u7B54\u6848\u4E0D\u5728\u8FD9\u91CC\u30020115l"
     nextDialogue: {fileID: 11400000, guid: bbec661eb0a3e1545a58772387508e9d, type: 2}
     bgNum: 2
     bgm: suspense

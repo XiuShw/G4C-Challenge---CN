@@ -14,12 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RootNode:
     dialogues:
-    - City Slums - Night0000l
-    - You realize that the food crisis is rather immediate. Sending an order through
-      the food bank would take at least a few days to process. Some of these people
-      looked like they needed food immediately. You decide the best course of action
-      at the moment would be to distribute food to people yourself.0000l
-    - ...0000l
+    - "\u57CE\u5E02\u8D2B\u6C11\u7A9F \u2014\u2014 \u591C\u665A0000l"
+    - "\u5F88\u5FEB\u4F60\u5C31\u610F\u8BC6\u5230\uFF0C\u9965\u8352\u7684\u95EE\u9898\u5DF2\u7ECF\u8FEB\u5728\u7709\u776B\u3002\u6309\u7167\u7AE0\u7A0B\u4ECE\u98DF\u7269\u94F6\u884C\u8C03\u914D\u8D44\u6E90\u81F3\u5C11\u8981\u51E0\u5929\u624D\u80FD\u5904\u7406\u3002
+      \u4F46\u773C\u524D\u8FD9\u4E9B\u4EBA\uFF0C\u6839\u672C\u7B49\u4E0D\u5230\u90A3\u65F6\u5019\u3002\u4F60\u8F7B\u8F7B\u7684\u53F9\u6C14\uFF0C\u6700\u597D\u7684\u529E\u6CD5\u5C31\u662F\u4EB2\u81EA\u628A\u98DF\u7269\u9001\u51FA\u53BB\uFF0C\u7ACB\u523B\u30020000l"
+    - "\u2026\u20260000l"
     nextDialogue: {fileID: 0}
     bgNum: 1
     bgm: 

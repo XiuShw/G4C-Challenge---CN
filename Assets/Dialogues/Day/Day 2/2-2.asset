@@ -14,27 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RootNode:
     dialogues:
-    - "Politician\u2019s Office \u2013 Noon0000l"
-    - "y:Today I took a look at the food pantry and discovered that there\u2019s
-      a heavy imbalance of nutrition-0110l"
-    - "p:People don\u2019t care about fancy meals. They need calories to survive,
-      that\u2019s it. We provide what we can.0310r"
-    - y:But malnutrition is making them sicker. They need more than just empty calories.
-      Their children are stunted, people are getting weaker-0310l
-    - "p:Oh, come on. We\u2019re giving them free food. They should be grateful.
-      It\u2019s not a gourmet restaurant.0312r"
-    - "p:Besides, did you not notice their ungrateful behavior? Work productivity
-      in the factories have been seriously declining. It\u2019s a shame, I was earning
-      so much from them.0312r"
-    - "y:The productivity problems are a product of malnourishment. Having food isn\u2019t
-      enough, there needs to be a balance of nutrition. And I\u2019m not talking
-      about luxury here. It\u2019s a basic human need. Processed food is keeping
-      them hungry, making them dependent.0312l"
-    - p:Hah, you should know. Keep them dependent, they stay in line. If they get
-      too strong, they start asking for more.0311r
-    - "y:\u20260311l"
-    - You realize the depth of corruption is way deeper than you initially thought.
-      The system isn't failing by accident. It's designed to keep the poor weak and
-      controlled.0311l
+    - "\u653F\u5BA2\u529E\u516C\u5BA4 \u2013 \u6B63\u53480000l"
+    - "y:\u6211\u521A\u624D\u770B\u4E86\u4ED3\u5E93\uFF0C\u53D1\u73B0\u98DF\u7269\u7684\u8425\u517B\u7ED3\u6784\u6781\u5EA6\u5931\u8861\u2014\u20140110l"
+    - "p:\u4ED6\u4EEC\u53C8\u4E0D\u9700\u8981\u5403\u4EC0\u4E48\u7CBE\u81F4\u6599\u7406\uFF0C\u80FD\u6D3B\u4E0B\u53BB\u5C31\u591F\u4E86\u3002\u6211\u4EEC\u771F\u5C3D\u529B\u4E86\u30020310r"
+    - "y:\u53EF\u957F\u671F\u8425\u517B\u4E0D\u826F\u6B63\u5728\u8BA9\u4ED6\u4EEC\u8D8A\u6765\u8D8A\u865A\u5F31\u3002\u5B69\u5B50\u957F\u4E0D\u9AD8\uFF0C\u5927\u4EBA\u6491\u4E0D\u4F4F\u5DE5\u65F6-0310l"
+    - "p:\u62DC\u6258\uFF0C\u4ED6\u4EEC\u62FF\u7684\u662F\u514D\u8D39\u7684\u98DF\u7269\uFF0C\u53C8\u4E0D\u662F\u6765\u5403\u9AD8\u6863\u9910\u5385\u30020312r"
+    - "p:\u4F60\u662F\u6CA1\u770B\u5230\u4ED6\u4EEC\u591A\u4E0D\u77E5\u611F\u6069\u7684\u6837\u5B50\uFF1F\u5DE5\u5382\u6548\u7387\u4E00\u5929\u4E0D\u5982\u4E00\u5929\u3002\u771F\u53EF\u60DC\uFF0C\u6211\u539F\u672C\u80FD\u4ECE\u4ED6\u4EEC\u8EAB\u4E0A\u8D5A\u4E0D\u5C11\u30020312r"
+    - "y:\u4ED6\u4EEC\u6548\u7387\u4E0B\u6ED1\uFF0C\u5C31\u662F\u56E0\u4E3A\u8425\u517B\u51FA\u95EE\u9898\u4E86\u3002\u5403\u9971\u4E0D\u662F\u591F\uFF0C\u5403\u5BF9\u624D\u884C\u3002\u8FD9\u4E0D\u662F\u8BB2\u4EAB\u53D7\uFF0C\u8FD9\u662F\u57FA\u672C\u751F\u5B58\u3002\u300D
+      Y\uFF1A\u300C\u52A0\u5DE5\u98DF\u54C1\u8BA9\u4ED6\u4EEC\u865A\u5F31\uFF0C\u997F\u5F97\u5FEB\uFF0C\u4F9D\u8D56\u611F\u8D8A\u6765\u8D8A\u5F3A\u30020312l"
+    - "p:\u8FD9\u4E0D\u662F\u6B63\u597D\u5417\uFF1F\u4ED6\u4EEC\u8D8A\u4F9D\u8D56\uFF0C\u5C31\u8D8A\u542C\u8BDD\u3002\u771F\u8981\u662F\u5403\u9971\u5403\u597D\u4E86\uFF0C\u63A5\u4E0B\u6765\u5C31\u8981\u63D0\u6761\u4EF6\u4E86\u30020311r"
+    - "y:\u2026\u20260311l"
+    - "\u4F60\u4E00\u8A00\u4E0D\u53D1\u3002 \u76F4\u5230\u73B0\u5728\u4F60\u624D\u770B\u6E05\uFF0C\u8150\u70C2\u65E9\u5C31\u6DF1\u5165\u9AA8\u9AD3\u3002\u8FD9\u4E2A\u7CFB\u7EDF\u4E0D\u662F\u51FA\u9519\u4E86\uFF0C\u5B83\u662F\u88AB\u8BBE\u8BA1\u6210\u8FD9\u6837\u7684\uFF0C\u8FD9\u5C31\u662F\u8981\u8BA9\u4ED6\u4EEC\u865A\u5F31\uFF0C\u987A\u4ECE\uFF0C\u6C38\u8FDC\u4E0D\u4F1A\u6709\u529B\u6C14\u53CD\u6297\u30020311l"
     nextDialogue: {fileID: 0}
     bgNum: 0
+    bgm: 
