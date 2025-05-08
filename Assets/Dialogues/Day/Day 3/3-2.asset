@@ -14,17 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RootNode:
     dialogues:
-    - Food Pantry Dumpster - Evening0000l
-    - "y:What\u2019s going on here?0115l"
-    - "w:We\u2019re just throwing waste from the party away.0115r"
-    - y:Let me take a look.0315l
-    - w:Uh, sir-0315r
-    - "y:I\u2019m the food bank president. And I\u2019m ordering you to leave.0315l"
-    - After the worker leaves, you take a look at the food inside. You recognize
-      the food as the ones that had been rerouted.0100l
-    - Despite being called waste from the party, many of the foods were untouched
-      or only had one bite. All this food was going to waste when it could have been
-      used to feed so many people.0300l
+    - "\u98DF\u7269\u4ED3\u5E93\u540E\u7684\u5783\u573E\u5806\u2014\u2014\u508D\u665A0000l"
+    - "y:\u8FD9\u662F\u4EC0\u4E48\u60C5\u51B5\uFF1F0115l"
+    - "w:\u6211\u4EEC\u5728\u5904\u7406\u665A\u5BB4\u5269\u4E0B\u7684\u5E9F\u6599\u30020115r"
+    - "y:\u8BA9\u6211\u770B\u770B\u30020315l"
+    - "w:\u5443\uFF0C\u5148\u751F\u2014\u20140315r"
+    - "y:\u6211\u662F\u98DF\u7269\u6551\u6D4E\u7AD9\u7684\u4F1A\u957F\u3002\u6211\u547D\u4EE4\u4F60\uFF0C\u79BB\u5F00\u8FD9\u91CC\u30020315l"
+    - "\u5DE5\u4EBA\u9ED8\u9ED8\u79BB\u5F00\u3002 \u4F60\u8D70\u8FD1\u7FFB\u770B\u90A3\u5806\u6240\u8C13\u7684\u201C\u5E9F\u5F03\u98DF\u7269\u201D\u30020100l"
+    - "\u4F60\u4E00\u773C\u8BA4\u51FA\uFF0C\u8FD9\u4E9B\u83DC\u539F\u672C\u8BE5\u9001\u53BB\u8D2B\u6C11\u533A\u3002
+      \u73B0\u5728\u5374\u5728\u8FD9\u91CC\uFF0C\u5B89\u9759\u5730\u8150\u70C2\u30020300l"
     nextDialogue: {fileID: 11400000, guid: 94aacb3caa65d3646bf57b21b40b7769, type: 2}
     bgNum: 1
     bgm: 

@@ -14,18 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RootNode:
     dialogues:
-    - The Next Day0000l
-    - "Politician\u2019s Party \u2013 Evening0000l"
-    - "You are invited by local politicians to attend a formal event. Apparently
-      it was to celebrate one of the politician\u2019s successful financial investments.0100l"
-    - Lavish dishes are served.0100l
-    - "p:You see? We\u2019re all about generosity. Our city thrives because of good
-      leadership.0111r"
-    - "y:This food\u2026 where did it come from?0111l"
-    - p:Imported. Only the best.0111r
-    - "You eye the foods carefully. Beyond the fancy toppings and condiments, the
-      base materials\u20260111l"
-    - "There\u2019s no mistake, after all. This is where the missing food went.0311l"
+    - "\u9694\u59290000l"
+    - "\u653F\u5BA2\u5BB4\u4F1A \u2013 \u508D\u665A0000l"
+    - "\u4F60\u88AB\u9080\u8BF7\u51FA\u5E2D\u4E00\u573A\u7531\u672C\u5730\u653F\u5BA2\u4E3E\u529E\u7684\u6B63\u5F0F\u665A\u5BB4\u3002
+      \u636E\u8BF4\u662F\u4E3A\u4E86\u5E86\u795D\u67D0\u4F4D\u653F\u5BA2\u7684\u67D0\u9879\u6295\u8D44\u53D6\u5F97\u4E86\u6210\u529F\u30020100l"
+    - "\u957F\u684C\u4E0A\u6446\u6EE1\u4E86\u5962\u534E\u83DC\u80B4\u3002\u91D1\u5C5E\u9910\u5177\u5728\u706F\u5149\u4E0B\u6CDB\u7740\u5149\uFF0C\u9910\u76D8\u8FB9\u7F18\u7528\u9999\u8349\u4E0E\u8C03\u6599\u5806\u780C\u51FA\u7CBE\u81F4\u7684\u88C5\u9970\u3002\u83DC\u4E00\u9053\u63A5\u4E00\u9053\u4E0A\u3002
+      \u725B\u6392\uFF0C\u7117\u87F9\uFF0C\u6A44\u6984\u6CB9\u62CC\u9C9C\u852C\u3002
+      \u9999\u6C14\u6251\u9F3B\u30020100l"
+    - "p:\u8FD9\u4E0B\u4F60\u4FE1\u4E86\u5427\uFF1F\u6211\u4EEC\u53EF\u662F\u4E00\u5411\u6177\u6168\u3002\u8FD9\u5EA7\u57CE\u5E02\u80FD\u7E41\u8363\uFF0C\u5168\u9760\u6211\u4EEC\u7684\u660E\u667A\u7684\u9886\u5BFC\u30020111r"
+    - "y:\u8FD9\u4E9B\u83DC\u2026\u2026\u662F\u4ECE\u54EA\u6765\u7684\uFF1F0111l"
+    - "p:\u5F53\u7136\u662F\u8FDB\u53E3\u7684\uFF0C\u6211\u4EEC\u4ECE\u6765\u53EA\u5403\u6700\u597D\u7684\u30020111r"
+    - "\u4F60\u5B9A\u775B\u4E00\u770B\u3002 \u5728\u90A3\u4E9B\u94FA\u5F97\u82B1\u54E8\u7684\u914D\u6599\u5E95\u4E0B\uFF0C\u4F60\u8BA4\u51FA\u4E86\u719F\u6089\u7684\u539F\u6599\u30020111l"
+    - "\u4F60\u4E0D\u4F1A\u8BA4\u9519\u7684\u3002 \u8FD9\u6B63\u662F\u90A3\u4E9B\u201C\u88AB\u8C03\u8D70\u201D\u7684\u98DF\u6750\u30020311l"
     nextDialogue: {fileID: 11400000, guid: 852b15f805991e0448b03f30abc12430, type: 2}
     bgNum: 3
     bgm: suspense
