@@ -14,17 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RootNode:
     dialogues:
-    - c:Mister!0108r
-    - y:Hey.0208l
-    - c:Here.0208r
-    - She holds out something shiny towards you.0208r
-    - "y:What\u2019s this?0108l"
-    - "You tentatively take the object. It\u2019s a shiny bottle cap.0108l"
-    - c:Shiny. Found. Gift.0108r
-    - y:Is this a gift for me?0208l
-    - The girl nods.0208r
-    - y:Thank you so much. I really appreciate it.0208l
-    - "y:Here\u2019s today\u2019s food. I\u2019ll be back tomorrow.0205l"
+    - "c:\u5148\u751F\uFF010108r"
+    - "y:\u563F\u30020208l"
+    - "c:\u7ED9\uFF0C\u4F60\u30020208r"
+    - "\u5979\u5C06\u4E00\u5757\u4EAE\u6676\u6676\u7684\u4E1C\u897F\u9012\u7ED9\u4F60\u30020208r"
+    - "y:\u8FD9\u662F\uFF1F0108l"
+    - "\u4F60\u8E72\u4E0B\u5E76\u8F7B\u8F7B\u7684\u63A5\u8FC7\u6765\u7269\u54C1\u3002\u662F\u4E00\u4E2A\u4EAE\u95EA\u95EA\u7684\u94F6\u8272\u74F6\u76D6\u30020108l"
+    - "c:\u4EAE\u4EAE\u7684\uFF0C\u6361\uFF0C\u9001\u4F60\u30020108r"
+    - "y:\u8FD9\u662F\u7ED9\u6211\u7684\u793C\u7269\uFF1F0208l"
+    - "\u5979\u70B9\u70B9\u5934\u30020208r"
+    - "y:\u8C22\u8C22\u4F60\u597D\u5B69\u5B50\uFF0C\u6211\u7279\u522B\u559C\u6B22\u30020208l"
+    - "y:\u8FD9\u662F\u4ECA\u5929\u7684\u5403\u7684\uFF0C\u660E\u5929\u4E5F\u5728\u8FD9\u91CC\u7B49\u7740\u6211\uFF0C\u597D\u5417\uFF1F0205l"
     nextDialogue: {fileID: 11400000, guid: 70435dfba9978244c861a0a558cb0a28, type: 2}
     bgNum: 1
     bgm: night

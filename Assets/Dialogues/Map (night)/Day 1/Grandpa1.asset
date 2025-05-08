@@ -14,13 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RootNode:
     dialogues:
-    - y:Sir. I apologize, you may be quite surprised, but here is some food.0209l
-    - Grandpa:What do I- *cough* have to pay?0109r
-    - "y:Sir, you don\u2019t have to pay anything. And it seems that you have a cold.
-      I also have some cold medicine with me.0109l"
-    - "Grandpa:Don\u2019t worry about me. If you truly are giving out food, give
-      it to the children first. Old men like me have no future.0109r"
-    - "y:Sir, please take it. I\u2019ll be giving out food to everyone.0109l"
+    - "y:\u5148\u751F\uFF0C\u6211\u5E26\u4E86\u5403\u7684\u30020209l"
+    - "Grandpa:\u6211\u9700\u7528- *\u54B3\u54B3\u54B3* \u4ED8\u591A\u5C11\uFF1F0109r"
+    - "y:\u7CAE\u98DF\u662F\u514D\u8D39\u7684\u3002\u60A8\u54B3\u5F97\u5389\u5BB3\uFF0C\u8981\u4E0D\u8981\u8BD5\u8BD5\u8FD9\u4E2A\u836F\uFF1F0109l"
+    - "Grandpa:\u522B\u7BA1\u6211\u4E86\uFF0C\u628A\u8FD9\u4E9B\u7ED9\u5E74\u8F7B\u7684\u5B69\u5B50\u4EEC\u5427...\u50CF\u6211\u8FD9\u6837\u7684\uFF0C\u65E9\u5C31\u6CA1\u6307\u671B\u4E86\u30020109r"
+    - "y:\u65E0\u8BBA\u600E\u6837\u4E5F\u8BF7\u6536\u4E0B\uFF0C\u7CAE\u98DF\u6BCF\u4E2A\u4EBA\u90FD\u4F1A\u6709\u7684\uFF0C\u6211\u4FDD\u8BC1\u30020109l"
     nextDialogue: {fileID: 11400000, guid: 282a8134dfd3b0f4ca034b8543cb7930, type: 2}
     bgNum: 1
     bgm: 

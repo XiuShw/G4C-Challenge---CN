@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RootNode:
     dialogues:
-    - c:Mister.0105r
-    - "y:Hey. Sorry about earlier. In the morning\u20260105l"
-    - c:No. Clare wrong.0105r
-    - c:Thank you, mister.0108r
-    - Your expression softens and you reach down to ruffle her hair.0208l
-    - "y:Make sure to eat the food while it\u2019s fresh. I\u2019ll return with more.0208l"
+    - "c:\u5148\u751F\u30020105r"
+    - "y:\u563F\u3002\u65E9\u4E0A\u7684\u4E8B\u2026\u2026\u4E0D\u597D\u610F\u601D\u30020105l"
+    - "c:\u4E0D\uFF0C\u514B\u83B1\u5C14\uFF0C\u9519\u4E86\u30020105r"
+    - "c:\u8C22\u8C22\u4F60\uFF0C\u5148\u751F\u30020108r"
+    - "\u4F60\u6E29\u67D4\u7684\u770B\u5411\u5979\uFF0C\u5E76\u4F38\u624B\u8F7B\u8F7B\u63C9\u4E86\u63C9\u5979\u7684\u5934\u53D1\u30020208l"
+    - "y:\u8D81\u70ED\u4E4E\u8D76\u7D27\u5403\u5427\uFF0C\u6211\u8FD8\u4F1A\u518D\u6765\u7684\u3002\u6211\u4FDD\u8BC1\u30020208l"
     nextDialogue: {fileID: 11400000, guid: 4242d91a920106d4ea25450968998d70, type: 2}
     bgNum: 1
     bgm: night

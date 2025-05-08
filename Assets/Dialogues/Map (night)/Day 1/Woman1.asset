@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RootNode:
     dialogues:
-    - Woman:What do you want?0114r
-    - "y:Miss, here\u2019s some food. Don\u2019t worry, it\u2019s completely free.
-      No strings attached.0114l"
-    - "Woman:Don\u2019t come any closer.0114r"
-    - "The woman\u2019s gaze is cold.0114r"
-    - "y:Of course. I\u2019ll just\u2026leave the food here.0114l"
+    - "Woman:\u4F60\u60F3\u5E72\u4EC0\u4E48\uFF1F0114r"
+    - "y:\u5973\u58EB\uFF0C\u8FD9\u662F\u4E9B\u7CAE\u98DF\u3002\u4E0D\u7528\u62C5\u5FC3\uFF0C\u4F60\u4E0D\u9700\u7528\u4ED8\u51FA\u4EFB\u4F55\u4EE3\u4EF7\u30020114l"
+    - "Woman:\u79BB\u6211\u8FDC\u70B9\u2026\uFF010114r"
+    - "\u5979\u7684\u773C\u795E\u50CF\u5200\u5B50\u4E00\u6837\u9510\u5229\u30020114r"
+    - "y:\u2026\u2026\u597D\uFF0C\u6CA1\u5173\u7CFB\uFF0C\u6211\u5C31\u628A\u98DF\u7269\u653E\u8FD9\u513F\u30020114l"
     nextDialogue: {fileID: 11400000, guid: 9765a462642b1c544bbf7c9d3d2bbb39, type: 2}
     bgNum: 1
+    bgm: 

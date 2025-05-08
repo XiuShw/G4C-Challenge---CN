@@ -70,7 +70,7 @@ public class DialogueManager : MonoBehaviour
             {
                 responseDone = false;
 
-                AudioSFXManager.Instance.PlayAudio("tap");
+                //AudioSFXManager.Instance.PlayAudio("tap");
 
                 if (dialogueCounter < dialogues.Count)
                 {
@@ -94,7 +94,7 @@ public class DialogueManager : MonoBehaviour
     {
         ShowDialogue();
         if(node.bgm != "") {
-            AudioBGMManager.Instance.PlayAudio(node.bgm);
+            //AudioBGMManager.Instance.PlayAudio(node.bgm);
         }
         dialogueNode = node;
         dialogueCounter = 0;
