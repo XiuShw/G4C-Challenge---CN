@@ -11,7 +11,9 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float moveDistance = 0.5f;
     [SerializeField] int step = 29;
+
     private bool canMove = true;
+    bool outOfStep = false;
 
     private float railSpd = 5f;
     [SerializeField] bool isRiding = false;
@@ -19,9 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float foodGiven = 0;
     private int status = 1;
-
-
-
+    
 
     [SerializeField] Text setpText;
     [SerializeField] Text noStep;
@@ -92,11 +92,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (step <= 0)
         {
-            canMove = false;
-            noStep.text = "Ran out of steps\n'R' to retry";
+            outOfStep = true;
         }
 
         setpText.text = step.ToString();
+
     }
 
 
@@ -165,6 +165,7 @@ public class PlayerMovement : MonoBehaviour
             yield return null;
         }
         step -= 1;
+        if (outOfStep) { MapLevelManager.Instance.scoreResult -= 1; }
         transform.position = destination;
         canMove = true;
     }

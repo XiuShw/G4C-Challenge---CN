@@ -12,10 +12,14 @@ public class MapLevelManager : MonoBehaviour
     private float originFoodOwn;
     private Slider slider;
     private int sceneIndex;
-    public int countRestart;
+    public int countRestart = 0;
     private int peopleWFood = 0;
     private int peopleFedThisLevel = 0;
     [SerializeField] float fillSpeed = 10f;
+
+    public int scoreResult = 0;
+
+    [SerializeField] Text restart;
 
     void Awake()
     {
@@ -42,7 +46,6 @@ public class MapLevelManager : MonoBehaviour
     {
         //sceneIndex = SceneManager.GetActiveScene().buildIndex;
         Debug.Log("scene loaded: " + sceneIndex);
-        countRestart++;
         peopleFedThisLevel = 0; 
         AudioSFXManager.Instance.PlayAudio("thump");
         slider = GameObject.Find("Slider").GetComponent<Slider>();
@@ -86,10 +89,7 @@ public class MapLevelManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-        //GameManager.foodGiven = originFoodOwn - foodOwn;
-
-        //Debug.Log(foodOwn);
-        
+        restart.text = "重试当前关卡" + countRestart.ToString() + "/10\n" + "返回当前解谜第一关" + countRestart.ToString() + "/10";
     }
 
     public void setFood(float amount)

@@ -35,7 +35,7 @@ public static class GameManager
             blockGridArray = new int[][] {
                 new int[] {-1, -1,  0,  0,  0, -1},
                 new int[] {-1,  0,  0,  0,  0, -1},
-                new int[] {-1,  0,  0,  0, -2, -1},
+                new int[] {-1,  0,  0, -1, -2, -1},
                 new int[] { 0,  0,  0,  0, -2,  0},
                 new int[] { 0,  0,  0,  0,  0,  0}
             };
@@ -68,8 +68,8 @@ public static class GameManager
                 new int[] {-1, -1,  0,  0,  0, -1},
                 new int[] {-1,  0,  0,  0,  0, -1},
                 new int[] {-1,  0,  0,  0,  0, -1},
-                new int[] { 0, -2,  0,  0,  0, -2},
-                new int[] { 0,  0,  0,  0,  0,  0},
+                new int[] { 0, -2, -2, -2,  0, -2},
+                new int[] { 0,  0,  0, -2,  0,  0},
                 new int[] { 0,  0,  0, -2,  0,  0},
                 new int[] { 0,  0,  0,  0,  0,  0}
             };
@@ -112,9 +112,9 @@ public static class GameManager
                 new int[] { 0,  0,  0, -1,  0,  0,  0,  0, -1},
                 new int[] {-1, -1, -1,  0,  0, -2,  0,  0, -1},
                 new int[] {-1, -1, -1,  0,  0,  0,  0,  0, -2},
-                new int[] {-1, -1, -1,  0,  0,  0,  0,  0,  0},
-                new int[] {-1, -1, -1,  0,  0,  0, -2,  0,  0},
-                new int[] {-1, -1, -1,  0,  0,  0, -2,  0,  0},
+                new int[] {-1, -1, -1,  0,  0, -2,  0,  0,  0},
+                new int[] {-1, -1, -1,  0,  0, -2, -2, -2,  0},
+                new int[] {-1, -1, -1,  0,  0, -2, -2,  0,  0},
                 new int[] {-1, -1, -1, -1,  0,  0,  0,  0,  0}
             };
             blockSolutionArray = new int[][] {

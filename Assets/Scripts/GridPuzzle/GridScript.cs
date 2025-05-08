@@ -8,7 +8,7 @@ public class GridScript : MonoBehaviour
     public Tile blank;
     public Tile dropshadow;
 
-    int[][] gridArray;
+    public int[][] gridArray;
     int[][] solutionArray;
 
     int rows, cols;
