@@ -20,6 +20,8 @@ public static class GameManager
 
     public static int[][] blockSolutionArray;
 
+    public static int outcomeValue = 5;
+
     public static Dictionary<int, object[]> blockPositionArray = new Dictionary<int, object[]>();
 
     public static BlockType[] blockSpawnList;

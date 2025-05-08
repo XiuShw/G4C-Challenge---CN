@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] Text setpText;
     [SerializeField] Text noStep;
+    [SerializeField] GameObject stepWarn;
 
     private void Start()
     {
@@ -93,6 +94,7 @@ public class PlayerMovement : MonoBehaviour
         if (step <= 0)
         {
             outOfStep = true;
+            stepWarn.SetActive(true);
         }
 
         setpText.text = step.ToString();

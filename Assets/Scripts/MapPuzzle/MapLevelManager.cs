@@ -12,14 +12,17 @@ public class MapLevelManager : MonoBehaviour
     private float originFoodOwn;
     private Slider slider;
     private int sceneIndex;
-    public int countRestart = 0;
+    public int countRestart = 10;
     private int peopleWFood = 0;
     private int peopleFedThisLevel = 0;
     [SerializeField] float fillSpeed = 10f;
 
+
+
+
     public int scoreResult = 0;
 
-    [SerializeField] Text restart;
+
 
     void Awake()
     {
@@ -46,7 +49,12 @@ public class MapLevelManager : MonoBehaviour
     {
         //sceneIndex = SceneManager.GetActiveScene().buildIndex;
         Debug.Log("scene loaded: " + sceneIndex);
-        peopleFedThisLevel = 0; 
+        scoreResult = 0;
+        if (countRestart <= 0)
+        {
+            scoreResult += countRestart;
+        }
+        peopleFedThisLevel = 0;
         AudioSFXManager.Instance.PlayAudio("thump");
         slider = GameObject.Find("Slider").GetComponent<Slider>();
         beginFoodOwn = foodOwn;
@@ -55,7 +63,7 @@ public class MapLevelManager : MonoBehaviour
 
     void Update()
     {
-
+        
         slider.value = Mathf.MoveTowards(slider.value, foodOwn, 15f * Time.deltaTime);
 
         if (Input.GetKeyDown(KeyCode.R))
@@ -63,6 +71,8 @@ public class MapLevelManager : MonoBehaviour
             foodOwn = beginFoodOwn;
             peopleWFood -= peopleFedThisLevel;
             peopleFedThisLevel = 0;
+            countRestart--;
+
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
@@ -72,6 +82,8 @@ public class MapLevelManager : MonoBehaviour
             peopleWFood = 0;
             peopleFedThisLevel = 0;
             peopleWFood = 0;
+            countRestart--;
+
             SceneManager.LoadScene(sceneIndex);
         }
 
@@ -88,8 +100,6 @@ public class MapLevelManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-        restart.text = "重试当前关卡" + countRestart.ToString() + "/10\n" + "返回当前解谜第一关" + countRestart.ToString() + "/10";
     }
 
     public void setFood(float amount)
