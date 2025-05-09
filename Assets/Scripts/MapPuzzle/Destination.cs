@@ -29,12 +29,12 @@ public class Destination : MonoBehaviour
                     MapLevelManager.Instance.peopleWFoodReset();
                     Destroy(MapLevelManager.Instance.gameObject);
                 }
-                if (SceneManager.GetActiveScene().buildIndex == 11 && options != null) {
-                    options.SetActive(true);
-                }
-                else {
+                // if (SceneManager.GetActiveScene().buildIndex == 11 && options != null) {
+                //     options.SetActive(true);
+                // }
+                //else {
                     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-                }
+                //}
             }
             else
             {
