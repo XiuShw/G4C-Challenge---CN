@@ -106,7 +106,13 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void StartDialogueFromInspector() {
-        StartDialogue(dialogue.RootNode);
+        if (SceneManager.GetActiveScene().buildIndex == 0) {
+            StartDialogue(dialogue.RootNode);
+        }
+        else {
+            StartDialogue(dialogueNode.nextDialogue.RootNode);
+        }
+        
     }
     private void DialogueAssemble(int index)
     {
@@ -130,6 +136,9 @@ public class DialogueManager : MonoBehaviour
         DialogueParent.SetActive(false);
         if (dialogueNode.options && options != null) {
             options.SetActive(true);
+        }
+        else {
+            ChangeScene.LoadNextSceneStatic();
         }
     }
 
