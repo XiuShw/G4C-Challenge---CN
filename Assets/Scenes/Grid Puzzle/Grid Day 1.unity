@@ -743,6 +743,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3031191916805782393, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
+      propertyPath: hint
+      value: 
+      objectReference: {fileID: 6896229043364529678}
+    - target: {fileID: 3031191916805782393, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
       propertyPath: HelpMenu
       value: 
       objectReference: {fileID: 1763846756}
@@ -1189,6 +1193,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7596529660269879732, guid: 957f3d0204e3540d49b6706f275d0a09, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7715113670229278668, guid: 957f3d0204e3540d49b6706f275d0a09, type: 3}
+      propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7767832305088526999, guid: 957f3d0204e3540d49b6706f275d0a09, type: 3}

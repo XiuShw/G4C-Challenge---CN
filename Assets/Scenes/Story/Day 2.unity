@@ -678,6 +678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Options
       objectReference: {fileID: 0}
+    - target: {fileID: 6231210789887000195, guid: 6a7ee4b853348a749b936d86c8e904ab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6539381375966327884, guid: 6a7ee4b853348a749b936d86c8e904ab, type: 3}
       propertyPath: m_Text
       value: "+1\n\n\n\u539F\u6765\u8FD9\u5C31\u662F\u8FD9\u5EA7\u57CE\u5E02\u4FE1\u5949\u7684\u751F\u5B58\u6CD5\u5219\u3002\u5982\u679C\u60F3\u81EA\u4E0A\u800C\u4E0B\u7684\u6539\u53D8\u8FD9\u4E00\u5207\uFF0C\u6050\u6015\u4E0D\u80FD\u53EA\u51ED\u4E00\u8154\u70ED\u8840\u3002"

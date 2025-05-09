@@ -294,15 +294,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2232207593242587860, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.47349644
+      value: 0.18764736
       objectReference: {fileID: 0}
     - target: {fileID: 2232207593242587860, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.47349644
+      value: 0.18764736
       objectReference: {fileID: 0}
     - target: {fileID: 2232207593242587860, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.47349644
+      value: 0.18764736
       objectReference: {fileID: 0}
     - target: {fileID: 2232207593242587860, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -348,6 +348,14 @@ PrefabInstance:
       propertyPath: row
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3031191916805782393, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
+      propertyPath: hint
+      value: 
+      objectReference: {fileID: 6896229043364529678}
+    - target: {fileID: 3031191916805782393, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
+      propertyPath: HelpMenu
+      value: 
+      objectReference: {fileID: 1763846756}
     - target: {fileID: 3031191916805782393, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
       propertyPath: GridScript
       value: 
@@ -460,15 +468,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2232207593242587860, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.47349644
+      value: 0.18764736
       objectReference: {fileID: 0}
     - target: {fileID: 2232207593242587860, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.47349644
+      value: 0.18764736
       objectReference: {fileID: 0}
     - target: {fileID: 2232207593242587860, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.47349644
+      value: 0.18764736
       objectReference: {fileID: 0}
     - target: {fileID: 2232207593242587860, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -515,9 +523,17 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3031191916805782393, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
+      propertyPath: hint
+      value: 
+      objectReference: {fileID: 6896229043364529678}
+    - target: {fileID: 3031191916805782393, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
       propertyPath: column
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3031191916805782393, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
+      propertyPath: HelpMenu
+      value: 
+      objectReference: {fileID: 1763846756}
     - target: {fileID: 3031191916805782393, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
       propertyPath: GridScript
       value: 
@@ -541,15 +557,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2232207593242587860, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.47349644
+      value: 0.18764736
       objectReference: {fileID: 0}
     - target: {fileID: 2232207593242587860, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.47349644
+      value: 0.18764736
       objectReference: {fileID: 0}
     - target: {fileID: 2232207593242587860, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.47349644
+      value: 0.18764736
       objectReference: {fileID: 0}
     - target: {fileID: 2232207593242587860, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -595,6 +611,14 @@ PrefabInstance:
       propertyPath: row
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3031191916805782393, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
+      propertyPath: hint
+      value: 
+      objectReference: {fileID: 6896229043364529678}
+    - target: {fileID: 3031191916805782393, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
+      propertyPath: HelpMenu
+      value: 
+      objectReference: {fileID: 1763846756}
     - target: {fileID: 3031191916805782393, guid: e2ad7d3cf17563f4587e6fdcf01e0c2b, type: 3}
       propertyPath: GridScript
       value: 
@@ -1296,6 +1320,14 @@ PrefabInstance:
     - target: {fileID: 2694958518761257137, guid: 957f3d0204e3540d49b6706f275d0a09, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: toNextLvl
+      objectReference: {fileID: 0}
+    - target: {fileID: 3264167790588101844, guid: 957f3d0204e3540d49b6706f275d0a09, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580260512520500328, guid: 957f3d0204e3540d49b6706f275d0a09, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4279635250
       objectReference: {fileID: 0}
     - target: {fileID: 4232717503527196074, guid: 957f3d0204e3540d49b6706f275d0a09, type: 3}
       propertyPath: m_IsActive

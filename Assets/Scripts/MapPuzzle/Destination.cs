@@ -38,7 +38,7 @@ public class Destination : MonoBehaviour
             }
             else
             {
-                warnText.text = "There's still food left in the transport cart!\nR to retry";
+                warnText.text = "你还有食物在传送带上没拿！\n 按'R'重开";
             }
         }
     }
