@@ -3364,6 +3364,10 @@ PrefabInstance:
       propertyPath: beginFoodOwn
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1316642327742566486, guid: 37356b458d8646740b168212bc6c396f, type: 3}
+      propertyPath: countRestarts
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4255902357104433629, guid: 37356b458d8646740b168212bc6c396f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3776,13 +3780,13 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1691122020267004933, guid: 3e7db638d0732da44bae96e424b2b1fd, type: 3}
-      insertIndex: -1
+      insertIndex: 9
       addedObject: {fileID: 186252431}
     - targetCorrespondingSourceObject: {fileID: 1691122020267004933, guid: 3e7db638d0732da44bae96e424b2b1fd, type: 3}
-      insertIndex: -1
+      insertIndex: 10
       addedObject: {fileID: 1405704565}
     - targetCorrespondingSourceObject: {fileID: 1691122020267004933, guid: 3e7db638d0732da44bae96e424b2b1fd, type: 3}
-      insertIndex: -1
+      insertIndex: 11
       addedObject: {fileID: 468624892}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e7db638d0732da44bae96e424b2b1fd, type: 3}

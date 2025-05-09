@@ -80,10 +80,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You have not yet met the nutrition requirements for this level!
+  m_text: "\u4F60\u8FD8\u6CA1\u6709\u643A\u5E26\u8DB3\u591F\u7684\u98DF\u7269"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8e5e9c70067fcfb40b4f51c8ebf363cf, type: 2}
-  m_sharedMaterial: {fileID: 6745892874934235003, guid: 8e5e9c70067fcfb40b4f51c8ebf363cf, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c0fb742ca67561343bd11e3d7555ad84, type: 2}
+  m_sharedMaterial: {fileID: -8252729970954314750, guid: c0fb742ca67561343bd11e3d7555ad84, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

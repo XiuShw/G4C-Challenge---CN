@@ -123,6 +123,6 @@ public class MapLevelManager : MonoBehaviour
 
     private void OnDestroy()
     {
-        GameManager.outcomeValue += MapLevelManager.Instance.scoreResult;
+        GameManager.outcomeValue += originScore;
     }
 }

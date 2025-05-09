@@ -49,15 +49,13 @@ MonoBehaviour:
   DialogBodyText: {fileID: 0}
   background: {fileID: 0}
   tutorialBackgrounds:
-  - {fileID: 2800000, guid: 0458abc1b6f80421f9ff985810983022, type: 3}
-  - {fileID: 2800000, guid: 9117e26667c114dbfbd931711d952cf1, type: 3}
+  - {fileID: 2800000, guid: 70ec0362109ce8c4ea10e558bde60b77, type: 3}
+  - {fileID: 2800000, guid: a893ae00b37c70c41984469f284ddb1c, type: 3}
   - {fileID: 2800000, guid: 57044194b2289423894e3e912cd3df8e, type: 3}
   - {fileID: 2800000, guid: b14d6845413eb44acadd915534e91837, type: 3}
   - {fileID: 2800000, guid: ffb644a7c9a2b4ca894da471d0e9ade4, type: 3}
   - {fileID: 2800000, guid: 38cbe97f4913a494faf7fc75f42283e7, type: 3}
   - {fileID: 2800000, guid: ff4b67d1b8e3d40e28f31bcc7ca56542, type: 3}
-  - {fileID: 2800000, guid: 2a822cbce1af64eea89c8d32f8c39492, type: 3}
+  - {fileID: 2800000, guid: 155715959c8f3f14c9aab5e3ea211f1a, type: 3}
   tutorialYapBg: {fileID: 2800000, guid: 6c98033d737f74afda1ea7bb927fd1d0, type: 3}
-  dialogueDay1: {fileID: 11400000, guid: f040f27b967a945ccb5e28c9e3f1e134, type: 2}
-  dialogueDay3: {fileID: 11400000, guid: 537823a5c3892403badfef09d846d4a4, type: 2}
   dialogueTutorial: {fileID: 11400000, guid: 11df4404f9d534cfdbaa2ab12698b9b5, type: 2}

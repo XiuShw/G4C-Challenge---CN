@@ -331,6 +331,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 280275757}
     - target: {fileID: 184401490058177730, guid: 4c3569f168785e24b975900f6d4d5b87, type: 3}
+      propertyPath: stepWarn
+      value: 
+      objectReference: {fileID: 1101907235}
+    - target: {fileID: 184401490058177730, guid: 4c3569f168785e24b975900f6d4d5b87, type: 3}
       propertyPath: firstShrinkAt
       value: 2
       objectReference: {fileID: 0}
@@ -1424,6 +1428,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 229ee4c76011c2644ab36580156f5340, type: 3}
+--- !u!1 &1101907235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2579152540041427357, guid: 3e7db638d0732da44bae96e424b2b1fd, type: 3}
+  m_PrefabInstance: {fileID: 8936831875444695351}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1162236436
 PrefabInstance:
   m_ObjectHideFlags: 0

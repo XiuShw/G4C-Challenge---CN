@@ -67,12 +67,12 @@ public class PlayerMovement : MonoBehaviour
         if (foodGiven < 2.5)
         {
             status = 1;
-            transform.localScale = new Vector3(0.7f, 0.7f, 0f);
+            transform.localScale = new Vector3(0.75f, 0.75f, 0f);
         }
         else if (foodGiven >= 2.5 && foodGiven < 5)
         {
             status = 2;
-            transform.localScale = new Vector3(0.5f, 0.5f, 0f);
+            transform.localScale = new Vector3(0.55f, 0.55f, 0f);
         }
         else if (foodGiven >= 5)
         {
@@ -157,6 +157,8 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator leap(Vector3 destination)
     {
+        step -= 1;
+        if (outOfStep) { MapLevelManager.Instance.scoreResult -= 1; }
         Vector3 startPosition = transform.position;
         float elapsed = 0f;
         float duration = 0.12f;
@@ -169,8 +171,6 @@ public class PlayerMovement : MonoBehaviour
             canMove = false;
             yield return null;
         }
-        step -= 1;
-        if (outOfStep) { MapLevelManager.Instance.scoreResult -= 1; }
         transform.position = destination;
         canMove = true;
     }

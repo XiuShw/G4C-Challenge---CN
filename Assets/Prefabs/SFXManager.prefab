@@ -56,6 +56,9 @@ MonoBehaviour:
   savePeople: {fileID: 8300000, guid: 2f67b4d493cf7574caf3f15087785a5c, type: 3}
   deliverBelt: {fileID: 8300000, guid: 45a311b18999f4b4bbe190d56b917275, type: 3}
   deliverNoBelt: {fileID: 8300000, guid: 9c0f702519064d6469cd828464860689, type: 3}
+  zing: {fileID: 0}
+  outcomeGood: {fileID: 8300000, guid: 5fd5589e0567df2459a77e3d4a922f12, type: 3}
+  outcomeBad: {fileID: 8300000, guid: fd80ed0520dd54845870d0c24264ac5e, type: 3}
 --- !u!82 &4067955155916497240
 AudioSource:
   m_ObjectHideFlags: 0

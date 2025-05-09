@@ -1,9 +1,13 @@
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 using UnityEngine.InputSystem;
 
 public class UnlockableGrid : MonoBehaviour
 {
     [SerializeField] GridScript GridScript;
+    [SerializeField] GameObject HelpMenu;
+    [SerializeField] TextMeshProUGUI hint;
     [SerializeField] int row = 0;
     [SerializeField] int column = 0;
     int[][] temp;
@@ -16,17 +20,26 @@ public class UnlockableGrid : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Z) && gameObject.GetComponent<SpriteRenderer>().enabled == false)
+        {
+            GameManager.outcomeValue += 1;
 
+            GameManager.blockGridArray[row][column] = -2;
+            GridScript.initGrid(GameManager.blockGridArray, GameManager.blockXOffset, GameManager.blockYOffset, GameManager.blockSolutionArray, GameManager.day);
+            gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        }
     }
 
     private void OnMouseDown()
     {
-        Debug.Log(GameManager.outcomeValue);
-        GameManager.outcomeValue -= 1;
-        Debug.Log(GameManager.outcomeValue);
+        if (HelpMenu.activeSelf == false && gameObject.GetComponent<SpriteRenderer>().enabled == true)
+        {
+            GameManager.outcomeValue -= 1;
 
-        GameManager.blockGridArray[row][column] = 0;
-        GridScript.initGrid(GameManager.blockGridArray, GameManager.blockXOffset, GameManager.blockYOffset, GameManager.blockSolutionArray, GameManager.day);
-        Destroy(gameObject);
+            GameManager.blockGridArray[row][column] = 0;
+            GridScript.initGrid(GameManager.blockGridArray, GameManager.blockXOffset, GameManager.blockYOffset, GameManager.blockSolutionArray, GameManager.day);
+            gameObject.GetComponent<SpriteRenderer>().enabled = false;
+            hint.text = "按Z撤回此操作";
+        }
     }
 }
