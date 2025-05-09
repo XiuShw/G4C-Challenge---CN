@@ -1011,7 +1011,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c946ad9dd89463545985f68c5ae851f1, type: 3}
+    m_Font: {fileID: 12800000, guid: 0691cb3892b32a74ab6adfc8de3df5e1, type: 3}
     m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
@@ -2053,7 +2053,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c946ad9dd89463545985f68c5ae851f1, type: 3}
+    m_Font: {fileID: 12800000, guid: 0691cb3892b32a74ab6adfc8de3df5e1, type: 3}
     m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
@@ -2516,7 +2516,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c946ad9dd89463545985f68c5ae851f1, type: 3}
+    m_Font: {fileID: 12800000, guid: 0691cb3892b32a74ab6adfc8de3df5e1, type: 3}
     m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
@@ -3115,6 +3115,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1194426430480574179, guid: ecacc468d771f0e458a9f3acec2a7cae, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9193627
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194426430480574179, guid: ecacc468d771f0e458a9f3acec2a7cae, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9193627
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194426430480574179, guid: ecacc468d771f0e458a9f3acec2a7cae, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9193627
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194426430480574179, guid: ecacc468d771f0e458a9f3acec2a7cae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194426430480574179, guid: ecacc468d771f0e458a9f3acec2a7cae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.22
+      objectReference: {fileID: 0}
     - target: {fileID: 7357811663559576691, guid: ecacc468d771f0e458a9f3acec2a7cae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.907941
