@@ -20,8 +20,6 @@ public class TutorialDialogueManager : MonoBehaviour
     public Texture tutorialYapBg;
 
     [Header("Dialogue Data")]
-    public Dialogue dialogueDay1;
-    public Dialogue dialogueDay3;
     public Dialogue dialogueTutorial;
     private int day = 0;
     private DialogueNode dialogueNode;
@@ -78,7 +76,7 @@ public class TutorialDialogueManager : MonoBehaviour
     public void StartDialogueFromDay(int day)
     {
         dialogueIsActive = true;
-        dialogueNode = day == 1 ? dialogueDay1.RootNode : dialogueDay3.RootNode;
+        dialogueNode = dialogueTutorial.RootNode;
         dialogueCounter = 0;
         dialogues = new List<string>(dialogueNode.dialogues);
 
@@ -105,7 +103,7 @@ public class TutorialDialogueManager : MonoBehaviour
 
         DialogBodyText.text = AddTags(fullText);
 
-        background.texture = (day == 1 || day == 3) ? tutorialYapBg : tutorialBackgrounds[index];
+        background.texture = tutorialBackgrounds[index];
     }
 
     public void HideDialogue()

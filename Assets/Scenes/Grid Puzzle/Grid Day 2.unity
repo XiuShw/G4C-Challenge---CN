@@ -1149,6 +1149,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 275426106}
     - target: {fileID: 3373386612359865382, guid: 3e8e953e9b74540978b6fce8e75e8027, type: 3}
+      propertyPath: dialogueDay1
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373386612359865382, guid: 3e8e953e9b74540978b6fce8e75e8027, type: 3}
+      propertyPath: dialogueDay3
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373386612359865382, guid: 3e8e953e9b74540978b6fce8e75e8027, type: 3}
       propertyPath: helpUiManager
       value: 
       objectReference: {fileID: 1248284937}

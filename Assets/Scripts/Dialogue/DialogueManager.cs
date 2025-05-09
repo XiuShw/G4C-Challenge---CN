@@ -20,9 +20,9 @@ public class DialogueManager : MonoBehaviour
 
     [Header("Dialogue Data")]
     public Dialogue dialogue;
+    public GameObject options;
     private DialogueNode dialogueNode;
     private List<string> dialogues;
-
     private int dialogueCounter = 0;
     private bool responseDone = false;
     private int finishDialogue = 0; // 0 = not finished, 1 = finish immediately, -1 = finished, awaiting new dialogue
@@ -70,7 +70,7 @@ public class DialogueManager : MonoBehaviour
             {
                 responseDone = false;
 
-                //AudioSFXManager.Instance.PlayAudio("tap");
+                AudioSFXManager.Instance.PlayAudio("tap");
 
                 if (dialogueCounter < dialogues.Count)
                 {
@@ -94,7 +94,7 @@ public class DialogueManager : MonoBehaviour
     {
         ShowDialogue();
         if(node.bgm != "") {
-            //AudioBGMManager.Instance.PlayAudio(node.bgm);
+            AudioBGMManager.Instance.PlayAudio(node.bgm);
         }
         dialogueNode = node;
         dialogueCounter = 0;
@@ -123,8 +123,10 @@ public class DialogueManager : MonoBehaviour
     {
         foreach (GameObject ui in disabledUI) ui.SetActive(true);
         DialogueParent.SetActive(false);
-
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (options != null) {
+            options.SetActive(true);
+        }
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     private void ShowDialogue()
@@ -185,7 +187,8 @@ public class DialogueManager : MonoBehaviour
             "c" => "克莱尔",
             "p" => "政客",
             "w" => "员工",
-            "woman" => "孕妇",
+            "Woman" => "孕妇",
+            "Mother" => "妈妈",
             _ => name
         };
     }
