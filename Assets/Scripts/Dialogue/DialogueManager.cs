@@ -202,6 +202,7 @@ public class DialogueManager : MonoBehaviour
             "w" => "员工",
             "Woman" => "孕妇",
             "Mother" => "妈妈",
+            "Grandpa" => "爷爷",
             _ => name
         };
     }
