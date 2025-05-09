@@ -1118,7 +1118,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n\u5510\u5B50\u96C5\n\nAnnabel Luo\n"
+  m_text: '
+
+    Ziya Tang
+
+
+    Annabel Luo
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c0fb742ca67561343bd11e3d7555ad84, type: 2}
   m_sharedMaterial: {fileID: -8252729970954314750, guid: c0fb742ca67561343bd11e3d7555ad84, type: 2}
