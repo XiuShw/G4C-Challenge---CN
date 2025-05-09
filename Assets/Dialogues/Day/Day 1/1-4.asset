@@ -21,3 +21,4 @@ MonoBehaviour:
     nextDialogue: {fileID: 0}
     bgNum: 1
     bgm: 
+    options: 1

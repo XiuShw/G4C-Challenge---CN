@@ -697,7 +697,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6231210789887000195, guid: 6a7ee4b853348a749b936d86c8e904ab, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6539381375966327884, guid: 6a7ee4b853348a749b936d86c8e904ab, type: 3}
       propertyPath: m_Text
@@ -792,6 +792,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a7ee4b853348a749b936d86c8e904ab, type: 3}
+--- !u!1 &1019707023 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6231210789887000195, guid: 6a7ee4b853348a749b936d86c8e904ab, type: 3}
+  m_PrefabInstance: {fileID: 1019707022}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1240734540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1072,6 +1077,10 @@ PrefabInstance:
       propertyPath: image2
       value: 
       objectReference: {fileID: 267206210}
+    - target: {fileID: 527725046118703949, guid: 5d20da6f144de67429f48d3520038459, type: 3}
+      propertyPath: options
+      value: 
+      objectReference: {fileID: 1019707023}
     - target: {fileID: 527725046118703949, guid: 5d20da6f144de67429f48d3520038459, type: 3}
       propertyPath: dialogue
       value: 

@@ -5,13 +5,7 @@ public class AudioBGMManager : MonoBehaviour
 {
     public static AudioBGMManager Instance { get; private set; }
     public AudioSource audioSource;
-    public AudioClip chill;
-    public AudioClip sad;
-    public AudioClip suspense;
-    public AudioClip story;
-    public AudioClip night;
-    public AudioClip grid;
-    public AudioClip map;
+    public AudioClip chill, sad, suspense, story, night, grid, map, other;
     private string currentBGM = "";
     private void Awake()
     {
@@ -29,6 +23,9 @@ public class AudioBGMManager : MonoBehaviour
     private void Start()
     {
         audioSource.loop = true;
+        if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 13) {
+            PlayAudio("other");
+        }
     }
 
     private void Update()
@@ -97,6 +94,11 @@ public class AudioBGMManager : MonoBehaviour
             audioSource.clip = map;
             audioSource.volume = 1f;
             currentBGM = "map";
+        }
+        else if (clip == "other") {
+            audioSource.clip = other;
+            audioSource.volume = 1f;
+            currentBGM = "other";
         }
         audioSource.Play();
     }

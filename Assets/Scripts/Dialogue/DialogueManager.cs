@@ -45,7 +45,9 @@ public class DialogueManager : MonoBehaviour
 
     private void Start()
     {
-        StartDialogue(dialogue.RootNode);
+        if (SceneManager.GetActiveScene().buildIndex != 0){
+            StartDialogue(dialogue.RootNode);
+        }
     }
     private void Update()
     {
@@ -76,11 +78,11 @@ public class DialogueManager : MonoBehaviour
                 {
                     DialogueAssemble(dialogueCounter++);
                 }
-                else if (dialogueNode.IsLastNode())
+                else if (dialogueNode.IsLastNode() || dialogueNode.options)
                 {
                     HideDialogue();
                 }
-                else
+                else 
                 {
                     StartDialogue(dialogueNode.nextDialogue.RootNode);
                 }
@@ -103,6 +105,9 @@ public class DialogueManager : MonoBehaviour
         FadeTransition(() => DialogueAssemble(dialogueCounter++), node.bgNum);
     }
 
+    public void StartDialogueFromInspector() {
+        StartDialogue(dialogue.RootNode);
+    }
     private void DialogueAssemble(int index)
     {
         // string fullText = dialogues[index].Trim();
@@ -123,10 +128,9 @@ public class DialogueManager : MonoBehaviour
     {
         foreach (GameObject ui in disabledUI) ui.SetActive(true);
         DialogueParent.SetActive(false);
-        if (options != null) {
+        if (dialogueNode.options && options != null) {
             options.SetActive(true);
         }
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     private void ShowDialogue()
@@ -140,7 +144,7 @@ public class DialogueManager : MonoBehaviour
         return DialogueParent.activeSelf;
     }
     
-    public void PrintWord(string dialogue)
+    private void PrintWord(string dialogue)
     {
         finishDialogue = 0;
         responseDone = false;

@@ -38,3 +38,4 @@ MonoBehaviour:
     nextDialogue: {fileID: 11400000, guid: 94aacb3caa65d3646bf57b21b40b7769, type: 2}
     bgNum: 2
     bgm: 
+    options: 1
