@@ -74,12 +74,14 @@ public class BlockLevelManagerScript : MonoBehaviour
 
         updateUI();
 
-        if (day == 1) {
+        if (day == 1)
+        {
             // TODO uncomment in final
             helpUiManager.GetComponent<HelpUiManager>().startTutorialDay1();
-        } else if (day == 3) {
-            helpUiManager.GetComponent<HelpUiManager>().startTutorialDay3();
         }
+        // else if (day == 3) {
+        //    helpUiManager.GetComponent<HelpUiManager>().startTutorialDay3();
+        //}
     }
 
     public void setPopupStatus(bool status) {

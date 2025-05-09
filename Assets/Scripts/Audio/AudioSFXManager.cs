@@ -8,7 +8,7 @@ public class AudioSFXManager : MonoBehaviour
     public static AudioSFXManager Instance { get; private set; }
 
     public AudioSource audioSource;
-    public AudioClip tap, click, pop, thump, zip, ding, bad, savePeople, deliverBelt, deliverNoBelt, zing;
+    public AudioClip tap, click, pop, thump, zip, ding, bad, savePeople, deliverBelt, deliverNoBelt, zing, outcomeGood, outcomeBad;
 
     private bool canPlay = true;
     private HashSet<string> gridScenes = new HashSet<string> { "Grid Day 1", "Grid Day 2", "Grid Day 3" };
@@ -50,6 +50,8 @@ public class AudioSFXManager : MonoBehaviour
             case "deliverBelt": audioSource.clip = deliverBelt; audioSource.volume = 0.5f; break;
             case "deliverNoBelt": audioSource.clip = deliverNoBelt; audioSource.volume = 0.5f; break;
             case "zing": audioSource.clip = zing; audioSource.volume = 0.5f; break;
+            case "outcomeGood": audioSource.clip = outcomeGood; audioSource.volume = 1f; break;
+            case "outcomeBad": audioSource.clip = outcomeBad; audioSource.volume = 1f; break;
             default: return;
         }
 

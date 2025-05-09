@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ChineseLogo_0: -3175283127592549586
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
