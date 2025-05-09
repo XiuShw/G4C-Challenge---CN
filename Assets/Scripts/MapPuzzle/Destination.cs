@@ -9,6 +9,7 @@ public class Destination : MonoBehaviour
     [SerializeField] GameObject belt2;
     [SerializeField] Text warnText;
     [SerializeField] bool isLastPuzzle;
+    public GameObject options;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -28,7 +29,12 @@ public class Destination : MonoBehaviour
                     MapLevelManager.Instance.peopleWFoodReset();
                     Destroy(MapLevelManager.Instance.gameObject);
                 }
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                if (SceneManager.GetActiveScene().buildIndex == 11 && options != null) {
+                    options.SetActive(true);
+                }
+                else {
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                }
             }
             else
             {
